@@ -1,0 +1,183 @@
+
+.pay_node {
+	overflow: hidden;
+	-webkit-box-shadow: 0 0 3px #ddd;
+	-moz-box-shadow: 0 0 3px #ddd;
+	box-shadow: 0 0 3px #ddd;
+	width:96%;
+	margin:0 auto;
+	margin-top:3rem;
+}
+
+.pay_node_title {
+	height: 2.28125rem;
+	background: #448aff;
+	width: 100%;
+	line-height: 2.28125rem;
+	color: #fff;
+	font-size: 0.8125rem;
+	text-align: center;
+}
+
+.pay_node_ul {
+	font-size: 0.75rem;
+	width: 90%;
+	margin: 0.3125rem auto;
+}
+
+.pay_node_ul h2 {
+	font-size: 0.75rem;
+}
+.pay_node_list {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+
+.pay_node_list p {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.pay_money_number{
+	font-size:0;
+	width:80%;
+	margin:0 auto;
+	height:1.625rem;
+	line-height: 1.624rem;
+	margin-top:0.5rem;
+}
+.pay_money_number span,.pay_money_number input{
+	font-size:0.6875rem;
+}
+.pay_money_number span{
+	color: #333333;
+	width:4rem;
+	text-indent: 0.2rem;
+	display: inline-block;
+}
+.pay_money_number input{
+	color: #333;
+	border:1px solid #e3e3e3;
+	text-indent: 0.2rem;
+	height:1.5625rem;
+	width:11.1875rem;
+}
+
+.pay_node_mas {
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #ebebed;
+	border-top: none;
+	margin: 0.25rem auto;
+}
+
+.pay_node_mas h2 {
+	height: 1.875rem;
+	line-height: 1.875rem;
+	width: 100%;
+	background: url("../img/pay_titlebg.png") no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: 0;
+}
+
+.par_node_masnum {
+	width: 100%;
+	border-top: 1px dashed #e6e6e6;
+	padding: 0.4rem 0 0.84rem 0;
+	background: #f2f3f7;
+}
+
+.par_node_masleft {
+	color: #999;
+}
+
+.par_node_masright {
+	color: #333;
+}
+
+.pay_node_mas h2 .icon-qian {
+	font-size: 0.7rem;
+	color: #333;
+}
+
+.pay_node_mas h2 span {
+	font-size: 0.625rem;
+	color: #333;
+}
+
+.par_node_masli {
+	width: 100%;
+	height: 1.28125rem;
+	line-height: 1.28125rem;
+	color: #999999;
+	font-size: 0.625rem;
+}
+
+.par_node_masleft {
+	text-align: right;
+}
+
+.par_node_masright {
+	text-align: left;
+	text-indent: .5rem;
+}
+
+.par_node_masleft, .par_node_masright {
+	width: 50%;
+}
+
+.pay_button {
+	width: 100%;
+	text-align: center;
+}
+
+.pay_button input {
+	-webkit-appearance: none;
+	width: 80%;
+	margin: 0.5rem 0;
+	height: 1.59375rem;
+	background: #ff8042;
+	color: #fff;
+	line-height: 1.59375rem;
+	text-align: center;
+	outline: none;
+	font-size: 0.6875rem;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.node_title_gain {
+	height: 1.0625rem;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #0cb084;
+	vertical-align: middle;
+	line-height: 1.0625rem;
+	margin-left: 0.3rem;
+	border-radius: 3px;
+	color: #0cb084;
+	font-size: 0.75rem;
+	padding: 0 0.35rem;
+}
+.par_remark{
+	width:90%;
+	margin:0 auto;
+	font-size:0.5625rem;
+	color: #448aff;
+	margin-bottom:.4rem;
+	line-height:1rem;
+}

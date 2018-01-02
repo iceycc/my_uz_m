@@ -1,0 +1,211 @@
+@charset "UTF-8";
+html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.swiper-container-h .swiper-wrapper-h1 {
+  margin-top: 4.125rem;
+}
+.swiper-container-h .swiper-wrapper-h1 .img {
+  width: 10.625rem;
+  height: 12.25rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.36);
+}
+.swiper-container-h .swiper-wrapper-h2 {
+  margin-top: 3.5rem;
+}
+.swiper-container-h .swiper-wrapper-h2 .img {
+  width: 11.55rem;
+  height: 19.1rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.36);
+}
+.swiper-container-h .image {
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+.swiper-container-h .swiper-slide-active {
+  transform: scale(1);
+  transition: all .5s;
+}
+
+.float-view {
+  top: 20.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.float-quick-view {
+  top: 21rem;
+  z-index: 11;
+}
+
+.btn-apply {
+  background: #FF8A00;
+  padding: 0.375rem 1rem;
+  font-size: 0.5rem;
+  border-radius: 0.125rem;
+  color: #FFFFFF;
+}
+
+.indicator {
+  margin: auto;
+  position: fixed;
+  bottom: 1vh;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/indicator.png");
+  animation: indicator-animation 2s ease infinite;
+  -webkit-animation: indicator-animation 2s ease infinite;
+}
+
+/**
+报名页面
+ */
+.page9 .signup-layout {
+  margin: 0.75rem 8% 0 8%;
+}
+.page9 .signup-layout .signup {
+  margin-top: -1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0082dd;
+  padding: 1.5rem 0.5rem 0.375rem 0.5rem;
+  border-radius: 0.375rem;
+}
+.page9 .signup-layout .signup .input {
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  -webkit-appearance: none;
+  line-height: 1;
+}
+.page9 .signup-layout .signup .tip {
+  margin-top: 0.25rem;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.page10 .signup-layout {
+  margin: 0.75rem 8% 0 8%;
+}
+.page10 .signup-layout .signup {
+  margin-top: -1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0082dd;
+  padding: 1.5rem 0.5rem 0.375rem 0.5rem;
+  border-radius: 0.375rem;
+}
+.page10 .signup-layout .signup .input2 {
+  width: 100%;
+  margin-top: 0.375rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #FFFFFF;
+  -webkit-appearance: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.page10 .signup-layout .signup .input2 .btn {
+  padding: 0.125rem 0.375rem;
+  margin: 0.125rem 0;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  font-size: 12px;
+  color: #0082dd;
+}
+.page10 .signup-layout .signup .input2 .btn-selected {
+  color: #FFFFFF;
+  background: #ffc837;
+}
+.page10 .signup-layout .signup .input2 .btn-unselected {
+  color: #FFFFFF;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+}
+.page10 .signup-layout .signup .input2 .city_sel {
+  border: none;
+  padding: 0.4rem 0.5rem;
+  flex-grow: 1;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+.page10 .signup-layout .signup .input2 input {
+  background-color: transparent;
+  -webkit-appearance: none;
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: none;
+  color: #FFFFFF;
+}
+.page10 .signup-layout .signup .input2 ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #FFFFFF;
+}
+.page10 .signup-layout .signup .input2-layout {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 0rem 1rem;
+}
+.page10 .signup-layout .signup .tip {
+  margin-top: 0.25rem;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+@keyframes indicator-animation {
+  0% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    transform: translateY(30%);
+  }
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

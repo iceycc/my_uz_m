@@ -1,0 +1,171 @@
+.quality, .second-show{
+	margin-top: 3.3125rem;
+	width: 100%;
+	display: none;
+}
+#apply-form { margin: 1.25rem 0.4375rem 0.75rem 0.4375rem; }
+#name-box, #phone-box { position: relative;}
+#user-area{ background: #fff url(../img/areaIcon.gif) no-repeat 98% center; background-size: 1.125rem 1.125rem;}
+.apply-input {
+	-webkit-appearance: none;
+	display: block;
+	margin-bottom: 0.625rem;
+	width: 100%;
+	height: 2.4375rem;
+	border: 1px solid #e4e4e4;
+	font: normal 0.8125rem/2.4375rem "STHeitiSC-Light","Microsoft YaHei";
+	text-indent: 0.5625rem;
+	color: #333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+.apply-input:focus { border-color: #a4c6fd; outline: none;}
+#province { position: relative;}
+#select-01 {
+	position: relative;
+	-webkit-appearance: none;
+	display: block;
+	margin-bottom: 0.625rem;
+	width: 100%;
+	height: 2.4375rem;
+	border: 1px solid #e4e4e4;
+	font: normal 0.8125rem/2.4375rem "STHeitiSC-Light", "Microsoft YaHei";
+	text-indent: 0.5625rem;
+	color: #333;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	background: #fff url(../img/selectarrow.gif) no-repeat 98% center;
+	background-size: 1.125rem 1.125rem;
+}
+
+.area-box select{
+	padding-left: 0.625rem;
+	font: normal 0.8125rem/2.4375rem "STHeitiSC-Light","Microsoft YaHei";
+	background: #fff url(../img/selectarrow.gif) no-repeat 98% center;
+	background-size: 1.125rem 1.125rem;
+	-webkit-appearance: none;
+	border: 1px solid #e4e4e4;
+}
+.first-box, .second-box{
+	display: flex;
+	justify-content: space-between;
+}
+.first-box{
+	margin-bottom: 0.75rem;
+}
+.first-box select{
+	width: 9rem;
+	height: 2.4375rem;
+}
+.first-box select:first-child{
+	margin-right: 0.75rem;
+}
+.second-box select{
+	margin-right: 0.4375rem;
+	width: 5.875rem;
+	height: 2.4375rem;
+}
+.second-box select:last-child{
+	margin-right: 0;
+}
+
+.blue-btn {
+	margin-top: 0.375rem;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 2.25rem;
+	font: normal 0.875rem/2.25rem "STHeitiSC-Light","Microsoft YaHei";
+	text-align: center;
+	border-width: 0;
+	background-color: #15a5ff;
+	color: #fff;
+	cursor: pointer;
+	display:block;
+}
+
+
+.sec-apply{
+	padding: 1.1875rem 0.8125rem 0.9375rem;
+}
+.sec-apply p{
+	float: left;
+	margin-bottom: 0.75rem;
+	width: 50%;
+	height: 1.6875rem;
+	line-height: 1.6875rem;
+	font-size: 0.75rem;
+	color: #999;
+}
+.sec-apply p span{
+	display: inline-block;
+	padding-left: 0.75rem;
+	width: 3.5625rem;
+	font-size: 0.9375rem;
+	color: #666;
+}
+.sec-apply p input{
+	margin-right: 0.25rem;
+	width: 3rem;
+	height: 1.5625rem;
+	text-align: center;
+	background-color: #f1f1f1;
+	border: 1px solid #e3e3e3;
+	font-size: 0.75rem;
+	color: #666;
+}
+
+.second-error{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0.5625rem;
+	font-size: 0.625rem;
+	color: #ff1010;
+	display: none;
+}
+.second-error .icon-cuowutishi{
+	float: left;
+	padding: 0.0625rem 0.125rem 0 0;
+}
+.second-error .error-msg{
+	float: left;
+}
+
+#errorCue{
+	position: fixed;
+	top: -2.5rem;
+	left: 0;
+	width: 100%;
+	height: 2.6875rem;
+	line-height: 2.5rem;
+	text-align: center;
+	background-color: #F06464;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in 0s;
+	-ms-transition: all 0.3s ease-in 0s;
+	-moz-transition: all 0.3s ease-in 0s;
+	-o-transition: all 0.3s ease-in 0s;
+	transition: all 0.3s ease-in 0s;
+	z-index: 1;
+}
+#errorCue.ios {
+	position: absolute;
+	-webkit-transition: all 0.05s ease-in 0s;
+	-ms-transition: all 0.05s ease-in 0s;
+	-moz-transition: all 0.05s ease-in 0s;
+	-o-transition: all 0.05s ease-in 0s;
+	transition: all 0.05s ease-in 0s;
+}
+#errorMsg{
+	font: 0.75rem "Microsoft YaHei";
+	color: #fff;
+}
+#errorCue.show {
+	top: 0;
+	opacity: 1;
+	z-index: 998;
+}

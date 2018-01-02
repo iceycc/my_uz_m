@@ -1,0 +1,66 @@
+<?php defined('IN_WZ') or exit('No direct script access allowed'); ?><!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0, minimal-ui"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>帐号登录</title>
+<link href="<?php echo R;?>activity/base/css/base.css" rel="stylesheet" type="text/css">
+<link href="<?php echo R;?>activity/login/css/login.css" rel="stylesheet" type="text/css">
+
+
+    <div style="display:none">
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?92380afd6606de580cc830429c39c519";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </div>
+</head>
+
+<body>
+<header>
+    <!--<a id="go-back" target="_self" title="优装美家">
+        <i class="iconfont icon-goback"></i>
+    </a>-->
+    <h1 class="header-title">帐号登录</h1>
+
+</header>
+
+<section class="tMarA">
+	<div class="item fix">
+        <input placeholder="请输入手机号"  maxlength="11" type="text" class="tel" id="tel">
+    </div>
+
+    <div class="item fix">
+        <input name=""  placeholder="请输入校验码" maxlength="8" type="text" class="verific" maxlength="10" id="img_code_in">
+        <p class="msgBtn" id="img_code">
+            <img src="" >
+        </p>
+    </div>
+
+    <div class="item fix">
+        <input name="" type="text"  maxlength="6" placeholder="请输入验证码" class="verific" id="msgWord">
+        <p class="msgBtn" id="msgBtn"><span class="txt">发送验证码</span><span class="time">（<i id="time">60</i> s）</span></p>
+    </div>
+    
+    <input name="" type="button" value="登录" class="btn opa7" id="loginBtn" disabled >
+   
+    <a href="activity-reg.html" target="_parent" class="go">新用户注册 &gt;</a>
+    
+    
+</section>
+
+
+
+</body>
+<script src="<?php echo R;?>activity/base/js/zepto.min.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script><script src="<?php echo R;?>activity/base/js/base.js"></script>
+<script src="<?php echo R;?>activity/login/js/login.js"></script>
+
+
+
+</html>

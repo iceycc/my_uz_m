@@ -1,0 +1,123 @@
+
+body {
+    padding:3.2rem 0 3.7rem 0;
+}
+.wd_cont{
+    padding:0 0.71875rem;
+    padding-bottom:1rem;
+}
+.wd_cont_list{
+
+}
+.user_masa{
+    font-size:14px;
+    margin-top:.28rem;
+}
+.user_masa_time{
+    font-size:12px;
+    margin-top:.1rem;
+}
+.user_masa_username{
+    color: #999;
+}
+.user_masa_time{
+    color: #ccc;
+}
+.answer_question_time_r{
+    color: #999;
+    font-size:12px;
+    line-height:2rem;
+    height:2rem;
+}
+
+.wd_question_name{
+    padding:.5rem 0;
+    line-height:1.2rem;
+    font-size:.81rem;
+}
+
+/*guanjia回答*/
+.wd_reply{
+    background: #f4f4f4;
+    padding:0 .5rem 0 .5rem;
+    position: relative;
+}
+.trig{
+    width: .3rem;
+    height: .3rem;
+    border: .55rem solid transparent;
+    border-bottom-color: #f4f4f4;
+    box-sizing: border-box;
+    position: absolute;
+    left: 2.2rem;
+    top: -1rem;
+}
+.wd_reply_r{
+    width:14.2rem;
+    margin-top:.6rem;
+}
+.wd_reply_r_head{
+    font-size:.4375rem;
+}
+.wd_reply_name{
+    font-size: .9rem;
+    position: relative;
+    top:-.21rem;
+}
+.wd_reply_place{
+    transform: scale(0.9);
+    padding: 0 .5rem;
+    background: #9ed5ff;
+    border-radius: 1rem;
+    font-size: .75rem;
+    margin-left: .1rem;
+    color: #fff;
+    height: 1rem;
+    line-height: 1.1rem;
+}
+.wd_reply_time{
+    color: #999;
+    font-size:.75rem;
+}
+.wd_reply_r_text{
+    padding:.1rem .1rem 0 0;
+    font-size:.9rem;
+    line-height:1.1rem;
+}
+.wd_reply_r_foot{
+    padding:.5rem 0 .3rem 0;
+}
+.answer_time_zan{
+    font-size:.75rem;
+    color: #999;
+}
+.answer_time_zan i.zan1 {
+    background: url("../img/question_zan1.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-right: 5px;
+}
+.answer_time_zan i {
+    width: .85125rem;
+    height: .94375rem;
+    background: url("../img/question_zan.png") no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    margin-right: 5px;
+}
+.reply_more_btn{
+    color: #50b3ff;
+    font-size:.75rem;
+    display: none;
+}
+.wd_reply{
+    padding-top:-1rem;
+}
+.answer_minute{
+    padding:.5rem 0;
+    border-bottom:1px dashed #ccc;
+}
+.wd_reply .answer_question_logo{
+    width:1.96875rem;
+    margin: .2rem .7rem 0 .3rem;
+}

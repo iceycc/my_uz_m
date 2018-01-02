@@ -1,0 +1,72 @@
+.fl{float: left;}
+.fr{float: right;}
+body{
+    font-family: "Microsoft Yahei" !important;
+    padding:2.6875rem 0 0 0;
+}
+em,i{font-style:normal;}
+b,strong{font-weight:bold;}
+.color_gold{color: #ffc700;}
+.padlr_10{padding:0 5px;}
+.overflow_h{overflow:hidden;}
+i,em{font-style:normal;}
+strong,b{font-weight:normal;}
+.font_16{font-size:16px !important;}
+.font_14{font-size:14px !important;}
+.font_12{font-size:12px !important;}
+.font_75{font-size:.75rem !important;}
+
+
+/*头像*/
+.answer_question_logo{
+    width:1.96875rem;
+    height:1.96875rem;
+    border:1px solid #d2d2d2;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right:.7rem;
+}
+.answer_question_logo img{
+    width:100%;
+    height:100%;
+}
+.footer_zhuge{
+    width:100%;
+    height:3.65rem;
+    background: rgba(0, 0, 0, .7) url(../img/footer_zhuge_bg.png) no-repeat;
+    -webkit-background-size:100%;
+    background-size:100%;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+.footer_zhuge_link{
+    width:4.75rem;
+    height:2rem;
+    position: absolute;
+    right: 1.85rem;
+    top:1rem;
+    background: #000;
+    opacity:0;
+}
+.footer_zhuge_close{
+    width:1.1rem;
+    height:1.1rem;
+    background: red;
+    position: absolute;
+    top:0;
+    right:0;
+    opacity:0;
+}
+.footer_zhuge{
+    transition: .9s all ease;
+}
+.answer_question_time_r i{
+    background: url("../img/question_time_chakan.png") no-repeat;
+    width:1rem;
+    height:.9rem;
+    background-size:100%;
+    position: relative;
+    top:.65rem;
+    margin:0 .3rem 0 .7rem;
+}

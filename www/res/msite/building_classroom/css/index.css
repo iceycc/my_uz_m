@@ -1,0 +1,226 @@
+body {
+	background-color: #ededed;
+}
+/* base S */
+img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+section {
+	margin: 0 0.3125rem 0.625rem;
+	background-color: #fff;
+}
+.header-module {
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+.header-module h3 {
+	/*float: left;*/
+	margin-left: 0.5rem;
+	font-size: 1rem;
+	color: #333;
+}
+.header-module p{
+	/*float: right;*/
+	display: block;
+	font-size: 0.8125rem;
+	color: #999;
+}
+.header-module p span {
+	float: left;
+}
+.icon-arrow {
+	margin: 0 -0.3125rem 0 -0.8125rem;
+	font-size: 2.5rem;
+	color: #999;
+ }
+/* base E */
+
+/* 视频讲堂 S */
+.banner {
+	margin: 2.75rem 0 0.625rem 0;
+	width: 100%;
+	height: 7.6875rem;
+}
+
+.video-list {
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.video-list li {
+	/*float: left;*/
+	margin: 0 0.625rem;
+	width: 8.6875rem;
+}
+.video-list .video-img {
+	position: relative;
+ 	width: 100%;
+	height: 5.8125rem;
+ }
+ .video-list .video-img img {
+ 	width: 100%;
+ 	height: 100%;
+ 	vertical-align: middle;
+ }
+.video-list .play_btn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 1.6875rem;
+	height: 1.8125rem;
+	margin-left: -0.84375rem;
+	margin-top: -0.90625rem;
+	background: url(../img/play_icon.png) no-repeat 0 0/cover;
+}
+.video-title {
+	padding: 0 0.5rem;
+	height: 2.1875rem;
+	line-height: 2.1875rem;
+	font-size: 0.75rem;
+	color: #333;
+	overflow: hidden;
+}
+/* 视频讲堂 E */
+
+/* 装修攻略 S */
+.building-list li {
+	margin-bottom: 0.625rem;
+	width: 100%;
+	height: 4.875rem;
+	border-bottom: 0.0625rem dashed #e0e0e0;
+	overflow: hidden;
+}
+.building-list li:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.building-list li a {
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	padding: 0 0.5625rem;
+	height: 4.1875rem;
+}
+.img-box {
+	position: relative;
+	padding-right: 0.5625rem;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	/*float: left;*/
+	width: 5.625rem;
+	height: 4.1875rem;
+}
+.img-box span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1.8125rem;
+	height: 1.0625rem;
+	line-height: 1.0625rem;
+	text-align: center;
+	font-size: 0.625rem;
+	color: #fff;
+	background-color: #d8a265;
+}
+.word-box{
+	position: relative;
+	-webkit-box-flex: 2;
+	-moz-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+	/*padding-left: 6.125rem;
+	width: 12.125rem;*/
+	width: 100%;
+	height: 4.1875rem;
+}
+.word-box h3 {
+	width: 100%;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	font-size: 0.875rem;
+	color: #333;
+	overflow: hidden;
+}
+.word-box p {
+	position: absolute;
+	/*left: 6.125rem;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2rem;
+	line-height: 1rem;
+	font-size: 0.75rem;
+	color: #ababab;
+	overflow: hidden;
+}
+/* 装修攻略 E */
+
+/* 业主故事 S */
+.story-list li {
+	margin: 0 0.625rem;
+	padding-bottom: 0.625rem;
+}
+.story-box {
+	position: relative;
+}
+.story-box img{
+	width: 18.125rem;
+	height: 9.25rem;
+}
+.ceng-box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 12.75rem;
+	height: 4.9375rem;
+	margin-left: -6.375rem;
+	margin-top: -2.46875rem;
+	text-align: center;
+	color: #fff;
+	background: rgba(0, 0, 0, .3);
+}
+.ceng-box h3{
+	margin: 0.5rem 0.8125rem;
+	max-height: 2.5rem;
+	line-height: 1.25rem;
+	font-size: 0.875rem;
+	overflow: hidden;
+}
+.ceng-box p {
+	position: absolute;
+	bottom: 0.625rem;
+	width: 100%;
+	font-size: 0.625rem;
+}
+.ceng-box p:before, .ceng-box p:after{
+	content: '';
+	position: absolute;
+	top: 0.5rem;
+	width: 2.9375rem;
+	height: 0.0625rem;
+	background-color: #fff;
+}
+.ceng-box p:before {
+	left: 0.9375rem;
+}
+.ceng-box p:after {
+	right: 0.9375rem;
+}
+/* 业主故事 E */

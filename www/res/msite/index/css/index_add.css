@@ -1,0 +1,301 @@
+
+/**/
+.in_title_name{
+	font-size: 3.2rem;
+	color: #333;
+}
+.cont_title{
+	position: relative;
+	display: block;
+	height: 2.1875rem;
+	line-height: 2.1875rem;
+	background: #fff;
+	color: #999;
+}
+.cont_title_name{
+	position: absolute;
+	left: .3125rem;
+	top: 0;
+	font-size: .9rem;
+	color: #076fbf;
+}
+.cont_title span{
+	position: absolute;
+	right: .3125rem;
+	top: 0;
+	color: #999;
+	font-size: .75rem;
+}
+#active-list>li{
+	height: 5.875rem;
+	margin-bottom: 0;
+}
+#active{
+	padding: .3125rem;
+}
+/*工地直播start*/
+
+.in_live{
+	padding: 0.3125rem;
+	width: 19.375rem;
+	overflow: hidden;
+}
+.in_live_list{
+	width: 19.375rem;
+	overflow: hidden;
+}
+.in_live_list ul{
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+	padding:0 .3125rem;
+}
+.in_live_list li{
+	width: 9.21875rem;
+	height: 6.15625rem;
+	float: left;
+	position: relative;
+	margin: 0 .3125rem .3125rem 0;
+	overflow: hidden;
+}
+.in_live_list li img{
+	/*width: 100%;
+	height: 100%;*/
+	position: absolute;
+	z-index: 1;
+}
+.in_live_mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: #d8d8d8;
+	background: rgba(0,0,0,.4);
+	z-index: 3;
+}
+.in_live_mask h3{
+	text-align: center;
+	font-size: .75rem;
+	margin: auto;
+	margin-top: 2rem;
+	line-height: 1.8em;
+	width: 8rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.in_live_mask p{
+	width: 100%;
+	text-align: center;
+	font-size: 0.6rem;
+}
+/*工地直播end*/
+
+/*company start*/
+
+.in_company{
+	margin: 0 auto;
+	width: 19.375rem;
+	overflow: hidden;
+}
+.in_company_list{
+	overflow: hidden;
+	background: #fff;
+	padding: 0 .3125rem;
+	min-width: 19.375rem;
+}
+.in_company_list li{
+	width: 4.73375rem;
+	height: 3.15625rem;
+	border-top: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	float: left;
+	position: relative;
+}
+.in_company_list li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.in_company_list li img{
+	width: 2.5rem;
+	height: 2.5rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -1.25rem;
+	margin-top: -1.25rem;
+}
+.in_footer_menu_gd{
+	color: #666;
+}
+/*company end*/
+
+#applyBtn{
+	background: #ff7519;
+}
+#apply-total{
+	width: 100%;
+}
+.index_bottom_erect{
+	height: 3.2rem;	
+}
+/* min_banner wushi add 2016-08-11 S */
+.min_banner{
+	overflow: hidden;
+	margin: 0 auto;
+	padding:0.3125rem 0.3125rem 0;
+}
+.min_banner img{
+	width:100%;
+}
+#active{ margin-top:0;}
+/* min_banner wushi add 2016-08-11 E */
+
+/* 导航按钮 2016 10-31 */
+.link-list {
+	width: 100%;
+	height: 5.6875rem;
+	background-color: #fff;
+	border-bottom: 0.0625rem solid #f0f0f0;
+}
+.link-list ul {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	-webkit-box-pack: justify;
+	-ms-flex-align: center;
+	    align-items: center;
+	-webkit-box-align: center;
+	width: 100%;
+	height: 100%;
+}
+.link-list ul li:first-child {
+	margin-left: 0.625rem;
+}
+.link-list ul li:last-child {
+	margin-right: 0.625rem;
+}
+.link-list ul a {
+	display: block;
+	text-align: center;
+}
+.link-list ul a i {
+	font-size: 2rem;
+}
+.icon-ww {
+	color: #2dba9e;
+}
+.icon-zhaogongsi {
+	color: #faaf3d;
+}
+.icon-hongbaoshu {
+	color: #f05c42;
+}
+.icon-fengshui {
+	color: #4d7088;
+}
+.icon-jisuanqi {
+	color: #8888ff;
+}
+.link-list ul a p {
+	margin-top: 0.625rem;
+	font-size: 0.8125rem;
+	color: #333;
+}
+
+.what-manager {
+	margin: 0.3125rem;
+	padding: 0.3125rem;
+    height: 7.5675rem;
+    background-color: #fff;
+}
+.what-manager img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+/*taocan */
+.set_meal{
+	width:19.375rem;
+	margin:0 auto;
+}
+.meal_cont{
+	width:100%;
+	padding:0 0.0625rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #fff;
+}
+.meal_list{
+	width:50%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0 0.25rem 0.5rem;
+	background: #fff;
+	position: relative;
+
+}
+.meal_list_link{
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:1;
+}
+.meal_img{
+	width:100%;
+	height:6.875rem;
+	overflow: hidden;
+}
+.meal_img img{
+	/*width:100%;*/
+	/*height:100%;*/
+}
+.meal_text{
+	color: #333;
+}
+.meal_text h2{
+	line-height:38px;
+	font-size:14px;
+	font-family: PingFangSC-Regular, sans-serif,"Microsoft YaHei";
+	text-indent:0.3rem;
+	width:90%;
+	white-space:nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.meal_price{
+	position: relative;
+}
+.meal_price{
+	line-height:26px;
+}
+.meal_price_state{
+	position: absolute;
+	right:0.95rem;
+	top:50%;
+	background: #fff4f4;
+	color: #ff6666;
+	font-size:12px;
+	padding:0 0.31rem;
+	line-height:1.5em;
+	height:1.5em;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	border-radius: 10px 0 10px 0;
+}
+.meal_price_num{
+	font-size:12px;
+	text-indent:0.3rem;
+}
+
+.meal_price_num span{
+	font-size:18px;
+	color: #ff3e3e;
+}

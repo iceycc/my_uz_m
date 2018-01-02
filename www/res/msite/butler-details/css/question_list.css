@@ -1,0 +1,31 @@
+
+/*问题列表*/
+body{background: #f4f4f4;padding:2.6875rem 0 3.7rem 0;}
+.question_cont{
+    width:19.46875rem;
+    margin:.4rem auto;
+}
+.answer_list{
+    background: #fff;
+    padding:.8rem;
+    border-radius: 5px;
+    margin-top:.5rem;
+}
+.answer_question_name{
+    color: #999;
+    font-size:12px;
+    line-height:2.1rem;
+}
+.question_hd{
+    padding:.5rem 0;
+    line-height:1.2rem;
+    font-size:.8rem;
+    color: #000;
+    border-bottom:1px dashed #eee;
+}
+.answer_question_time{
+    color: #666;
+    line-height:2rem;
+    font-size:12px;
+    margin-bottom:-.8rem;
+}

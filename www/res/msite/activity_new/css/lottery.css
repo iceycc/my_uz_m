@@ -1,0 +1,105 @@
+body{
+	padding-top: 2.6875rem;
+	background: #efd020;
+}
+.lottery{
+	position: relative;
+}
+.lottery img {
+	width:100%;
+}
+.lottery_button{
+	width:6rem;
+	height: 1.6rem;
+	position: absolute;
+	left:50%;
+	bottom:3rem;
+	margin-left:-3rem;
+}
+.lottery_submit{
+	width:100%;
+	height:100%;
+	background: #ccc;
+	opacity:0;
+}
+
+
+
+.sing_number{
+	border-top:1px solid #dcdcdc;
+	width:95%;
+	margin:0 auto;
+	font-size:0.65rem;
+	text-align: center;
+	height:1px;
+	margin-bottom:1rem;
+}
+.sing_number p{
+	position: relative;
+	display: inline-block;
+	width:7rem;
+	height:1.2rem;
+	background: #fff;
+	top:-0.75rem;
+}
+.sing_number .singup_num{
+	font-size:0.95rem;
+	padding:0 0.2rem;
+	color: #fa5758;
+	position: relative;
+	top:0.1rem;
+}
+
+.sing_form{
+	text-align: center;
+}
+.sing_name,.sing_telphone,.sing_submit{
+	margin-bottom:0.4rem;
+}
+.sing_form input{
+	width:18.0625rem;
+	height:2.03125rem;
+	border:none;
+	-webkit-border-radius:0.2rem;
+	-moz-border-radius:0.2rem;
+	border-radius:0.2rem;
+	display: block;
+	margin:0 auto;
+	text-indent:0.36rem;
+	-webkit-appearance: none;
+	outline: none;
+}
+.sing_form input:focus{
+
+}
+.sing_submit input{
+	text-align: center;
+	text-indent:0;
+	color: #fff;
+	line-height:2.03125;
+	background: #fa5758;
+	font-size:0.75rem;
+	border:none;
+	text-decoration: none;
+	cursor: pointer;
+}
+.sing_form input::-webkit-input-placeholder{
+	color: #c9c9c9;
+	font-size: 0.7rem;
+	font-family: "Microsoft YaHei";
+}
+.sing_form input::-moz-input-placeholder{
+	color: #c9c9c9;
+	font-size: 0.7rem;
+	font-family: "微软雅黑";
+}
+.sing_form input:-ms-input-placeholder{
+	color: #c9c9c9;
+	font-size: 0.7rem;
+	font-family: "微软雅黑";
+}
+.sing_form input:input-placeholder{
+	color: #c9c9c9;
+	font-size: 0.7rem;
+	font-family: "微软雅黑";
+}

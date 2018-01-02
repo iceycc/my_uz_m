@@ -1,0 +1,82 @@
+body{
+	padding-top:2.6875rem;
+}
+.header_img img,.footer_img img{
+	display: block;
+	width:100%;
+	background: #f55850;
+}
+.act716_text{
+	background: #f55850;
+	text-align: center;
+}
+.act716_text input{
+	width:18.4375rem;
+	height:2.125rem;
+	line-height:2.125rem;
+	border-radius:3px;
+	background: #fff;
+	border:none;
+	text-indent:0.6rem;
+
+}
+.act716_text ul{
+	overflow: auto;
+}
+.act716_text li{
+	margin-bottom:0.84375rem;
+}
+.act716_text li select{
+	width: 18.4375rem;
+	height: 2.125rem;
+	line-height: 2.125rem;
+	border: none;
+	border-radius: 3px;
+	text-indent: 0.5rem;
+	outline: none;
+	border: none;
+	font-family:"STHeitiSC-Medium","Droid Sans Fallback","Microsoft YaHei";
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	     appearance: none;
+	background: #fff url(../img/selectarrow.png) no-repeat 98% center;
+	-webkit-background-size:7%;
+	background-size:7%;
+}
+.act716_text li select:focus{
+	border:none;
+}
+.footer_img{
+	position: relative;
+}
+.submit_btn{
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:2.6rem;
+	text-align: center;
+}
+
+.singup_submit{
+	width:18rem;
+	height:100%;
+	border:none;
+	background: #000;
+	opacity:0;
+}
+.sing_link{
+	position: absolute;
+	left: 62%;
+	top: 3.2rem;
+	width: 2rem;
+	height: 0.6rem;
+	overflow: hidden;
+	font-size:0;
+	z-index:10;
+}
+.sing_link a{
+	display: block;
+	width:100%;
+	height:100%;
+}

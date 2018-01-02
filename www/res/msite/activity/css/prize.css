@@ -1,0 +1,100 @@
+body{
+	background: #f55850;
+}
+.header_img{
+	position: relative;
+}
+.header_img img{
+	width:100%;
+}
+.header_text{
+	width:11.125rem;
+	height:3.5rem;
+	line-height:3.5rem;
+	font-size:.875rem;
+	color: #480817;
+	text-align: center;
+	position: absolute;
+	left:50%;
+	margin-left:-5.5625rem;
+	top:5.9rem;
+
+}
+.silder_mode{
+	width:17.9375rem;
+	height:14.0625rem;
+	background: rgba(255,249,217,0.6);
+	-webkit-border-radius:0.2rem;
+	-moz-border-radius:0.2rem;
+	border-radius:0.2rem;
+	margin:0 auto;
+	position: relative;
+	top:-1.48rem;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top:0.3125rem;
+}
+.sil_title{
+	position: relative;
+	font-size: 0;
+	height:1.875rem;
+	line-height:1.875rem;
+	text-align: center;
+	overflow: hidden;
+	-webkit-box-shadow: 0 0.5rem 1rem #fbb9a2;
+	-moz-box-shadow: 0 0.5rem 1rem #fbb9a2;
+	box-shadow: 0 0.5rem 1rem #fbb9a2;
+}
+.sil_tit_bg{
+	display: inline-block;
+	width:15.8125rem;
+	height:0.1875rem;
+	background: url("../img/sil_tit_bg.png") no-repeat;
+	-webkit-background-size:100%;
+	background-size:100%;
+	vertical-align: middle;
+}
+.sil_title_name{
+	width:100%;
+	height:100%;
+	line-height:1.875rem;
+	font-size:.875rem;
+	color: #480817;
+	text-align: center;
+	position: absolute;
+	left:0;
+	top:0;
+
+}
+.sel_cont{
+	height:11.4375rem;
+	width:100%;
+	overflow: hidden;
+	padding:0 1.01rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.sel_listtext li{
+	line-height:1.875rem;
+	font-size:0;
+}
+.sel_list_name,.sel_list_jiangpin,.sel_list_telp{
+	font-size:0.625rem;
+	color: #480817;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sel_list_name{
+	text-indent:0.2rem;
+	width:3.5rem;
+}
+.sel_list_jiangpin{
+	width:8.5rem;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	overflow: hidden;
+}

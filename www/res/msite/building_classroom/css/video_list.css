@@ -1,0 +1,74 @@
+img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.banner {
+	margin: 2.75rem 0 0.9375rem 0;
+	width: 100%;
+	height: 7.6875rem;
+}
+.video-list {
+	margin: 0 0.9375rem;
+}
+.video-list li {
+	margin-bottom: 0.8125rem;
+	/*width: 18.125rem;*/
+	width: 100%;
+	border-bottom: 0.0625rem solid #e6e6e6;
+}
+.video-list li:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.video-img {
+	position: relative;
+	width: 100%;
+	height: 7.4375rem;
+}
+ .video-list .video-img img {
+ 	width: 100%;
+ 	height: 100%;
+ 	vertical-align: middle;
+ }
+.video-list .play_btn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 2.75rem;
+	height: 2.75rem;
+	margin-left: -1.375rem;
+	margin-top: -1.375rem;
+	background: url(../img/play_icon.png) no-repeat 0 0/cover;
+}
+.video-title {
+	width: 100%;
+	height: 2.625rem;
+	line-height: 2.625rem;
+	font-size: 0.75rem;
+	color: #333;
+	overflow: hidden;
+}
+
+/* 弹出层提示 */
+#alert-title {
+	padding: 0.625rem 0.875rem;
+	text-align: center;
+	font-size: 0.9375rem;
+	font-weight: bold;
+}
+#alert-con {
+	padding-top: 0;
+}
+
+
+.down-page{
+	margin-top: 0.0625rem;
+	max-width: 100%;
+	min-width: 100%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}

@@ -1,0 +1,112 @@
+body{
+    background: #f4f4f4;
+}
+.site_list{
+    margin-top: 3.40625rem;
+    font-size:0;
+}
+.mode_link{
+    position: relative;
+}
+.mode_link a{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:1;
+}
+
+.site_mode{
+    width:19.275rem;
+    margin:0 auto;
+    box-shadow: 0 0 4px #ddd;
+    background: #ffffff;
+    -webkit-border-radius:0.2rem;
+    -moz-border-radius:0.2rem;
+    border-radius:0.2rem;
+    margin-bottom:0.6rem;
+    position: relative;
+}
+
+
+.site_tit{
+    font-size:0.5rem;
+    color: #999;
+    width:90%;
+    margin:0 auto;
+    border-bottom:1px solid #ddd;
+}
+.order_id{
+    line-height:2rem;
+}
+.add_ress{
+    line-height:0.78125rem;
+    padding-bottom:0.4rem;
+}
+
+.site_c_tit{
+    line-height:2.5625rem;
+    font-size:0.7rem;
+    color: #333;
+    text-align: center;
+}
+.site_c_logo{
+    height:1.78125rem;
+    text-align: center;
+}
+.site_c_logo .iconfont{
+    font-size:1.7rem;
+    color: #2bb1fa;
+}
+.site_nodename{
+    font-size:0.5rem;
+    color: #333;
+    line-height:1.21875rem;
+    text-align: center;
+}
+.site_c_desc{
+    height:2.96875rem;
+    line-height:2.96875rem;
+    color: #aaa;
+    font-size:0.5rem;
+    padding:0 0.7rem;
+    overflow: hidden;
+}
+.site_gj_logo{
+    display: table-cell;
+    vertical-align: middle;
+    height:100%;
+    margin-right:0.5rem;
+}
+.site_gj_logo img{
+    width:1.6875rem;
+    height:1.6875rem;
+    border:1px solid #ddd;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+    vertical-align: middle;
+}
+.site_gj_name{
+    font-size:0.7rem;
+    margin-right:0.3rem;
+    color: #333;
+}
+.site_gj_status{
+    font-size:0.5rem;
+}
+
+.pinglun_status{
+    padding:0.5rem;
+    background: #f7f7f7;
+    text-align: center;
+    color: #f60;
+    font-size:0.5rem;
+}
+.pinglun_status p{
+    line-height:1rem;
+}
+.pinglun_status .iconfont{
+    font-size:0.8rem;
+}

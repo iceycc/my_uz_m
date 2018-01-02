@@ -1,0 +1,133 @@
+<?php defined('IN_WZ') or exit('No direct script access allowed'); ?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0, minimal-ui"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!--iphone桌面快捷方式图标<link rel="apple-touch-icon" href="custom_icon.png">-->
+    <meta charset="utf-8">
+    <meta property="qc:admins" content="50304154552051676375" />
+    <meta name="keywords" content="装修管家,量房设计,装修施工,材料商城,环保方案,装修服务,装修图库,建材商城,装修攻略、优装网、装修网、优装美家">
+    <meta name="description" content="优装美家为您提供免费专业咨询、免费量房、免费设计、免费装修保险、免费环保检测、优装网-专业装修网优选装修公司、优选建材商品、优选装修管家、优选环保服务">
+	<title>优装美家—计算器</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo R;?>msite/base/css/base.css">
+	<link rel="stylesheet" href="<?php echo R;?>msite/calculator_new/css/calculator_result.css" />
+
+<div style="display:none">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a9b93e0ac9bdda145e2d4f6ffa88ee5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</div>
+</head>
+<body>
+<header>
+    <div class="tit_minu">
+        <a id="go-back" target="_self" title="优装美家">
+            <i class="iconfont icon-goback"></i>
+        </a>
+        <a class="back_index" href="mobile-index.html">首页</a>
+    </div>
+    <h1 class="header-title">优装美家</h1>
+</header>
+<section class="top-info clearfix">
+	<div class="pad-style">
+		<div class="total-money">
+			<p><span id="totalMoney">--</span>万元</p>
+			<p>您的半包装修预算约</p>
+		</div>
+		<div class="room-area">
+			<div>
+				<p>您填写的房屋建筑面积为</p>
+				<p><span id="writeArea">--</span>㎡</p>
+			</div>
+			<div>
+				<p>根据系统预估，您的房屋使用面积约为</p>
+				<p><span id="realArea">--</span>㎡</p>
+			</div>
+		</div>
+		<div class="change-area">
+			<p>您可以修改建筑面积、户型重新计算报价</p>
+			<a href="mobile-calculator_revise.html?revise_house=true" class="change-btn" id="one-btn">修改>></a>
+		</div>
+	</div>
+</section>
+<section>
+	<ul  id="room-budget" class="room-ul">
+		<!-- <li class="room-li">
+			<p>主卧预算</p>
+			<p><span class="room-money">358746</span>元</p>
+			<p><span class="room-area">12</span>㎡</p>
+		</li>
+		<li class="room-li">
+			<p>次卧预算</p>
+			<p><span class="room-money">358746</span>元</p>
+			<p><span class="room-area">12</span>㎡</p>
+		</li>
+		<li class="room-li">
+			<p>客卧预算</p>
+			<p><span class="room-money">358746</span>元</p>
+			<p><span class="room-area">12</span>㎡</p>
+		</li>
+		<li class="room-li">
+			<p>书房预算</p>
+			<p><span class="room-money">358746</span>元</p>
+			<p><span class="room-area">12</span>㎡</p>
+		</li>
+		<li class="room-li">
+			<p>杂物房预算</p>
+			<p><span class="room-money">358746</span>元</p>
+			<p><span class="room-area">12</span>㎡</p>
+		</li>
+		<li class="room-li">
+			<p>阳台预算</p>
+			<p><span class="room-money">358746</span>元</p>
+			<p><span class="room-area">12</span>㎡</p>
+		</li>
+		<li class="room-li">
+			<p>其他预算</p>
+			<p><span class="room-money">358746</span>元</p>
+			<p><span class="room-area">12</span>㎡</p>
+		</li> -->
+	</ul>
+	<div class="change-num">
+		<p>根据实际调整各空间面积，报价更准确哦</p>
+		<a href="mobile-calculator_revise.html?revise_area=true" class="change-btn" id="two-btn">修改>></a>
+	</div>
+	<a class="look-detail" href="mobile-calculator_detail.html">查看详细报价清单</a>
+</section>
+<section id="show-box">
+	<div class="content-box">
+		<a class="re-load" href=""></a>
+		<p>网络不给力呀</p>
+		<p>点击屏幕重新加载</p>
+	</div>
+</section>
+<script type="text/template" id="budget-data">
+	<% for(var key in data){ %>
+		<% if(key == '其他'){ %>
+			<li class="room-li">
+				<p><%= key %>预算</p>
+				<p><span class="room-money"><%= data[key].total %></span>元</p>
+				<p><span class="room-area">--</span></p>
+			</li>
+		<% } else {%>
+			<li class="room-li">
+				<p><%= key %>预算</p>
+				<p><span class="room-money"><%= data[key].total %></span>元</p>
+				<p><span class="room-area"><%= data[key].area %></span>㎡</p>
+			</li>
+		<% } %>
+	<% } %>
+</script>
+<script src="<?php echo R;?>msite/base/js/zepto.min.js"></script>
+<script src="<?php echo R;?>msite/base/js/underscore.min.js"></script>
+<script src="<?php echo R;?>msite/base/js/base.js"></script>
+<script src="<?php echo R;?>msite/calculator_new/js/calculator_result.js"></script>
+</body>
+</html>

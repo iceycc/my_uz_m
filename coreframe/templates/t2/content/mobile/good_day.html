@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0, minimal-ui"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<!--iphone桌面快捷方式图标<link rel="apple-touch-icon" href="custom_icon.png">-->
+<meta charset="utf-8">
+<meta name="keywords" content="装修管家,量房设计,装修施工,材料商城,环保方案,装修服务,装修图库,建材商城,装修攻略、优装网、装修网、优装美家">
+<meta name="description" content="优装美家为您提供免费专业咨询、免费量房、免费设计、免费装修保险、免费环保检测、优装网-专业装修网优选装修公司、优选建材商品、优选装修管家、优选环保服务">
+<title>优装美家—管家式装修服务 有品质的低价</title>
+<link rel="stylesheet" type="text/css" href="{R}msite/base/css/base.css">
+<link href="{R}msite/good_day/css/good_day.css" rel="stylesheet" type="text/css">
+<div style="display:none">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a9b93e0ac9bdda145e2d4f6ffa88ee5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</div>
+</head>
+<body id="managerPage">
+<div id='share_logo' style='margin:0 auto;display:none;'> 
+  <img src="{R}msite/base/img/share_logo.jpg"/> 
+</div>
+<header>
+    <div class="tit_minu">
+        <a id="go-back" target="_self" title="优装美家">
+            <i class="iconfont icon-goback"></i>
+        </a>
+        <a class="back_index" href="mobile-index.html">首页</a>
+    </div>
+    <h1 class="header-title">装修吉日</h1>
+</header>
+<section class="banner">
+    <img src="{R}msite/good_day/img/jr_banner.jpg" alt="banner图" />
+</section>
+
+<!-- form -->
+<section>
+    <div class="form-header">
+        <h3>装修吉日测算</h3>
+        <p>结果会同时发送至您手机</p>
+    </div>
+    <div id="apply-form">
+        <form name="myform" method="post" id="myform" >
+            <div id="name-box">
+                <input id="user-name" name="title" class="apply-input" type="text" maxlength="10" placeholder="您的姓名">
+            </div>
+            <div id="phone-box">
+                <input id="user-pwd" name="telephone" class="apply-input" type="tel" maxlength="11" placeholder="您的手机">
+            </div>
+            <select name="time" id="time">
+                <option value="1">一个月内装修</option>
+                <option value="2">三个月内装修</option>
+                <option value="3">本年内装修</option>
+                <option value="4">一年内装修</option>
+                <option value="5">一年后装修</option>
+            </select>
+            <div id="area-choose" class="user-info">
+                <div id="province">
+                <select  name="select-01" id="select-01" class="apply-select">
+                    <option value="0">省/市</option>
+                </select>
+                </div>
+                <div id="city">
+                    <select  name="select-02" id="select-02" class="apply-select">
+                        <option value="0" selected="">市/地区</option>
+                    </select>
+                </div>
+            </div>
+            <input id="applyBtn" class="orange-btn" type="submit" value="立即测算">
+            <input id="source" name="source" type="hidden" size="30" value="活动报名页">
+        </form>
+    </div>
+</section>
+
+<!-- 错误提示 -->
+<section id="errorCue" class="hideError"><span id="errorMsg">您输入的姓名或电话有错误</span></section>
+
+<script type="text/javascript" src="{R}msite/base/js/zepto.min.js"></script>
+<script type="text/javascript" src="{R}msite/base/js/base.js"></script>
+<!-- <script type="text/javascript" src="{R}msite/base/js/size.js"></script> -->
+<script type="text/javascript" src="{R}msite/base/js/province_city_select.js"></script>
+<script type="text/javascript" src="{R}msite/good_day/js/good_day.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#select-01').loadProvince('#select-02');
+})
+</script>
+</body>
+</html>

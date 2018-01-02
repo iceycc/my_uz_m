@@ -1,0 +1,105 @@
+<?php defined('IN_WZ') or exit('No direct script access allowed'); ?><!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0, minimal-ui"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<!--iphone桌面快捷方式图标<link rel="apple-touch-icon" href="custom_icon.png">-->
+<meta charset="utf-8">
+<title>优装美家—管家式装修服务 有品质的低价</title>
+<link rel="stylesheet" type="text/css" href="<?php echo R;?>msite/base/css/base.css">
+<link rel="stylesheet" type="text/css" href="<?php echo R;?>msite/mysite_list/css/mysite_list.css">
+<link rel="stylesheet" type="text/css" href="<?php echo R;?>msite/building_live_new/css/iconfont.css">
+<div style="display:none">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a9b93e0ac9bdda145e2d4f6ffa88ee5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+</div>
+</head>
+<body>
+<header>
+    <a id="go-back" target="_self" title="优装美家"><i class="iconfont icon-goback"></i></a>
+    <h1 class="header-title">我的工地</h1>
+</header>
+
+<section class="site_list">
+    <ul class="site_cont" id="list_cont">
+
+    </ul>
+</section>
+
+</body>
+</html>
+<script type="text/template" id="mysite_list_templete">
+    <% for(var i = 0;i<mySiteData.length;i++){ %>
+    <% var item = mySiteData[i] %>
+    <li class="site_mode">
+        <div class="site_live mode_link">
+            <a href="mobile-mysite.html?live_id=<%= item.orderid %>"></a>
+            <div class="site_tit">
+                <p class="order_id">订单编号：<%= item.order_no %></p>
+                <% if(item.address){ %>
+                <p class="add_ress">地址：<%= item.address %></p>
+                <% } %>
+            </div>
+
+            <div class="site_cont">
+                <h2 class="site_c_tit"><%= item.status %></h2>
+
+                <div class="site_c_logo">
+                    <i class="<%= nodeLogo[item.nodeid] %>"></i>
+                </div>
+                <p class="site_nodename">最新进度：<%= item.nodename %></p>
+
+                <% if(item.personalphoto || item.gjname || item.level){ %>
+                <div class="site_c_desc clearfix">
+                    <% if(item.personalphoto){ %>
+                    <div class="fl site_gj_logo">
+                        <img src="<%= item.personalphoto %>">
+                    </div>
+                    <% } %>
+
+                    <% if(item.gjname || item.level){ %>
+                    <div class="fl">
+                        <% if(item.gjname){ %>
+                        <span class="site_gj_name"><%= item.gjname %></span>
+                        <% } %>
+
+                        <% if(item.level){ %>
+                        <span class="site_gj_status"><%= item.level %></span>
+                        <% } %>
+                    </div>
+                    <% } %>
+
+                    <% if(item.addtime){ %>
+                        <p class="fr"><%= item.addtime %></p>
+                    <% } %>
+
+                </div>
+                <% }else if(item.count == 0){ %>
+                        <div style="height: 0.5rem;"></div>
+                <% } %>
+            </div>
+        </div>
+        <% if(item.company_id && item.count > 0){ %>
+        <div class="pinglun_status mode_link">
+            <a href="mobile-score.html?orderid=<%= item.orderid %>"></a>
+            <p><i class="iconfont icon-ayixiangqingduihao"></i></p>
+            <p><%= item.count %>个待评价</p>
+        </div>
+        <% } %>
+    </li>
+    <% } %>
+</script>
+<script src="<?php echo R;?>msite/base/js/zepto.min.js"></script>
+<script src="<?php echo R;?>msite/base/js/base.js"></script>
+<script src="<?php echo R;?>msite/base/js/underscore-template.js"></script>
+<script src="<?php echo R;?>msite/base/js/size.js"></script>
+<script src="<?php echo R;?>msite/mysite_list/js/mysite_list.js"></script>
+

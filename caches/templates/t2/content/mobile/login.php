@@ -1,0 +1,99 @@
+<?php defined('IN_WZ') or exit('No direct script access allowed'); ?><!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0, minimal-ui"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<!--iphone桌面快捷方式图标<link rel="apple-touch-icon" href="custom_icon.png">-->
+<meta charset="utf-8">
+<meta name="keywords" content="装修管家,量房设计,装修施工,材料商城,环保方案,装修服务,装修图库,建材商城,装修攻略、优装网、装修网、优装美家">
+<meta name="description" content="优装美家为您提供免费专业咨询、免费量房、免费设计、免费装修保险、免费环保检测、优装网-专业装修网优选装修公司、优选建材商品、优选装修管家、优选环保服务">
+<title>优装美家—管家式装修服务 有品质的低价</title>
+<link rel="stylesheet" type="text/css" href="<?php echo R;?>msite/base/css/base.css">
+<link rel="stylesheet" type="text/css" href="<?php echo R;?>msite/login_reg/css/login.css">
+<link href="<?php echo R;?>/msite/index/css/post_form.css" rel="stylesheet" type="text/css">
+<div style="display:none">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a9b93e0ac9bdda145e2d4f6ffa88ee5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</div>
+</head>
+<body>
+<div id='share_logo' style='margin:0 auto;display:none;'> 
+  <img src="<?php echo R;?>msite/base/img/share_logo.jpg"/> 
+</div>
+<!--Top Bar Start-->
+<header>
+    <!--<a id="logo" href="##" target="_self" title="优装美家"><i class="iconfont icon-jingyu"></i></a>--> 
+    <a id="logo" href="mobile-index.html" target="_self" title="优装美家"><i class="iconfont icon-jingyu"></i></a>
+	<!-- <div class="city">
+		<a href="##" class="current-city">北京<i class="iconfont icon-xiajiantou"></i></a>
+	</div> -->
+	<h1 class="header-title">登录</h1>
+	
+</header>
+
+<!--Top Bar End-->
+
+<!--Main Content Start-->
+<section id="login" class="container">
+    <div class="log_silder">
+        <!--massage log in-->
+        <div class="log_info active shortmas_log">
+            <div class="user-input">
+                <input id="phone-number" type="number" placeholder="请输入手机号">
+            </div>
+            <div id="send-code" class="user-input clearfix">
+                <input id="phone-code" maxlength="6" type="text" placeholder="请输入手机验证码">
+                <input id="sent-message"  type="button" value="发送短信验证码">
+            </div>
+            <p id="reme-me" class="rember_me">
+                <input id="frees_loginsave" class="rember_check" type="checkbox" checked="checked"><label for="frees_loginsave">一月内免登录</label>
+            </p>
+            <input id="login-masbtn" class="login_btn" type="button" value="登录">
+        </div>
+        <!--password log in-->
+        <div class="log_info passworld_log">
+            <div class="user-input">
+                <input id="user-name" type="text" placeholder="请输入用户名或手机号">
+            </div>
+            <div class="user-input">
+                <input id="pwd" type="password" placeholder="请输入密码">
+            </div>
+            <p id="remember-me" class="rember_me">
+                <input id="free_login"  class="rember_check" type="checkbox" checked="checked"><label for="free_login">一月内免登录</label>
+            </p>
+            <input id="login-btn" type="button" value="登录">
+        </div>
+    </div>
+
+    <div id="login-bottom" class="clearfix">
+    	<a id="go-reg" class="log_statelink" href="mobile-reg.html" target="_self">快速注册</a>
+        <div class="pasandmas log_statelink">
+            <a class="paslist_btn" href="javascript:;" target="_self">短信登录</a>
+            <a class="paslist_btn active" href="javascript:;" target="_self">密码登录</a>
+        </div>
+    	<a id="forget" class="log_statelink" href="mobile-find_pwd.html" target="_self">忘记密码</a>
+    </div>
+
+    <div id="other-way">
+    	<h3>其他登录方式</h3>
+        <div class="other-way">
+        	<a id="weibo-passport"></a>
+            <a id="qq-passport"></a>
+            <a id="wx-passport"></a>
+        </div>
+    </div>
+</section>
+<!--Main Content End-->
+<script src="<?php echo R;?>msite/base/js/zepto.min.js"></script>
+<script src="<?php echo R;?>msite/base/js/base.js"></script>
+<script src="<?php echo R;?>msite/login_reg/js/check_input.js"></script>
+<script src="<?php echo R;?>msite/login_reg/js/login.js"></script>
+</body>
+</html>

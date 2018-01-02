@@ -1,0 +1,157 @@
+body{
+	background-color: #f1f1f1;
+}
+.top-info{
+	margin-top: 2.75rem;
+	padding-bottom: 0.875rem;
+	background: #fff url(../img/bg_img.jpg) repeat-x 0 bottom;
+}
+.pad-style{
+	padding: 0 0.5625rem;
+}
+.total-money{
+	padding: 0.6875rem 0 0.75rem;
+	text-align: center;
+	font-size: 0.75rem;
+	color: #666;
+	border-bottom: 1px dashed #ececec;
+}
+.total-money span{
+	font-size: 1.5rem;
+	color: #ff9f15;
+	letter-spacing: 0.125rem;
+}
+
+
+.room-area div{
+	height: 2.6875rem;
+	line-height: 2.6875rem;
+	font-size: 0.8125rem;
+	color: #999;
+}
+.room-area div:first-child{
+	border-bottom: 1px dashed #ececec;
+}
+.room-area p {
+	float: right;
+	font-size: 0.8125rem;
+	color: #999;
+
+}
+.room-area p:first-child{
+	float: left;
+}
+.room-area p span{
+	padding-right: 0.75rem;
+	font-size: 1rem;
+	color: #666;
+}
+
+.change-area{
+	float: left;
+	width: 100%;
+	height: 1.8125rem;
+	line-height: 1.8125rem;
+}
+.change-area p{
+	float: left;
+	font-size: 0.625rem;
+	color: #c3c2c2;
+}
+.change-area .change-btn{
+	float: right;
+	font-size: 0.75rem;
+	color: #15a5ff;
+	cursor: pointer;
+}
+
+
+.room-li{
+	margin-bottom: 1px;
+	height: 2.875rem;
+	line-height: 2.875rem;
+	background-color: #fff;
+	font-size: 0.8125rem;
+}
+.room-li p{
+	float: left;
+}
+.room-li p:first-child{
+	padding-left: 1.25rem;
+	width: 5.4375rem;
+	color: #666;
+}
+.room-li p:nth-child(2){
+	width: 5.875rem;
+	color: #999;
+}
+.room-li .room-money{
+	color: #ff9f15;
+}
+.room-li p:last-child{
+	color: #999;
+}
+.room-li .room-area{
+	color: #666;
+}
+
+
+.change-num{
+	padding: 0 0.5625rem 0 1.25rem;
+	height: 2.875rem;
+	line-height: 2.875rem;
+	background-color: #fff;
+}
+.change-num p{
+	float: left;
+	font-size: 0.625rem;
+	color: #c3c2c2;
+}
+.change-num .change-btn{
+	float: right;
+	font-size: 0.75rem;
+	color: #15a5ff;
+	cursor: pointer;
+}
+.look-detail{
+	display: block;
+	margin: 0.5rem auto 1.6875rem;
+	width: 18.5rem;
+	height: 2.5625rem;
+	line-height: 2.5625rem;
+	text-align: center;
+	font-size: 0.9375rem;
+	color: #fff;
+	background-color: #15a5ff;
+}
+
+/* 重新加载弹出层 */
+#show-box{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #efeff4;
+	display: none;
+}
+.content-box{
+	position: absolute;
+	left: 50%;
+	top: 5.375rem;
+	margin-left: -3.5625rem;
+	text-align: center;
+}
+.re-load{
+	display: inline-block;
+	margin-bottom: 1rem;
+	width: 2.625rem;
+	height: 2.625rem;
+	background: url(../img/re_load.png) no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.content-box p{
+	font-size: 0.875rem;
+	color: #bbb;
+}

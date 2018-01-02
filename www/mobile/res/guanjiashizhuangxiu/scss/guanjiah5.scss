@@ -1,0 +1,233 @@
+@charset "utf-8";
+@import "px2rem";
+@import "compass/css3";
+
+$font-color-blue: #0082dd;
+$font-color-white: #FFFFFF;
+$font-color-orange: #FF8A00;
+
+$graceful-usage-threshold: 0 !default;
+$critical-usage-threshold: -1;
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@mixin img($count ) {
+  @for $i from 1 through $count {
+    .page#{$i} {
+      background-image: url('../img/img_0#{$i}.jpg');
+    }
+  }
+}
+
+.swiper-container-h {
+  .swiper-wrapper-h1 {
+    margin-top: px2rem(165);
+    .img {
+      width: px2rem(425);
+      height: px2rem(490);
+      border-radius: 5px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.36);
+    }
+  }
+
+  .swiper-wrapper-h2 {
+    margin-top: px2rem(140);
+    .img {
+      width: px2rem(462);
+      height: px2rem(764);
+      border-radius: 5px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.36);
+    }
+  }
+  .image {
+    transform: scale(0.9);
+    transition: all 0.3s;
+  }
+
+  .swiper-slide-active {
+    transform: scale(1);
+    transition: all .5s;
+  }
+}
+
+.float-view {
+  top: px2rem(820);
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.float-quick-view {
+  top: px2rem(840);
+  z-index: 11;
+}
+
+//报名按钮
+.btn-apply {
+  background: $font-color-orange;
+  padding: px2rem(15) px2rem(40);
+  font-size: px2rem(20);
+  border-radius: px2rem(5);
+  color: $font-color-white;
+}
+
+//指示箭头
+.indicator {
+  margin: auto;
+  position: fixed;
+  bottom: 1vh;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/indicator.png");
+  animation: indicator-animation 2s ease infinite;
+  -webkit-animation: indicator-animation 2s ease infinite;
+}
+
+/**
+报名页面
+ */
+.page9 {
+  .signup-layout {
+    margin: px2rem(30) 8% 0 8%;
+    .signup {
+      margin-top: px2rem(-60);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: $font-color-blue;
+      padding: px2rem(60) px2rem(20) px2rem(15) px2rem(20);
+      border-radius: px2rem(15);
+      .input {
+        width: 100%;
+        border-radius: 30px;
+        border: none;
+        padding: px2rem(20) px2rem(20);
+        margin-top: px2rem(20);
+        box-sizing: border-box;
+        background-color: #FFFFFF;
+        -webkit-appearance: none;
+        line-height: 1;
+      }
+      .tip {
+        margin-top: px2rem(10);
+        font-size: 12px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.page10 {
+  .signup-layout {
+    margin: px2rem(30) 8% 0 8%;
+    .signup {
+      margin-top: px2rem(-60);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: $font-color-blue;
+      padding: px2rem(60) px2rem(20) px2rem(15) px2rem(20);
+      border-radius: px2rem(15);
+
+      .input2 {
+        width: 100%;
+        margin-top: px2rem(15);
+        box-sizing: border-box;
+        border-bottom: 1px solid #FFFFFF;
+        -webkit-appearance: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        .btn {
+          padding: px2rem(5) px2rem(15);
+          margin: px2rem(5) 0;
+          background-color: #FFFFFF;
+          border-radius: px2rem(20);
+          font-size: 12px;
+          color: $font-color-blue;
+        }
+
+        .btn-selected {
+          color: $font-color-white;
+          background: rgb(255, 200, 55);
+        }
+        .btn-unselected {
+          color: $font-color-white;
+          background: transparent;
+          border: 1px solid #FFFFFF;
+        }
+
+        .city_sel {
+          border: none;
+          padding: px2rem(16) px2rem(20);
+          flex-grow: 1;
+          color: #FFFFFF;
+          background-color: transparent;
+        }
+        input {
+          background-color: transparent;
+          -webkit-appearance: none;
+          flex-grow: 1;
+          padding: px2rem(20);
+          border: none;
+          color: #FFFFFF;
+        }
+        ::-webkit-input-placeholder { /* WebKit browsers */
+          color: #FFFFFF;
+        }
+      }
+
+      .input2-layout {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: px2rem(0) px2rem(40);
+      }
+
+      .tip {
+        margin-top: px2rem(10);
+        font-size: 12px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+@keyframes indicator-animation {
+  0% {
+    @include opacity(1);
+    @include translateY(0);
+  }
+  50% {
+    @include opacity(0.5);
+    @include translateY(30%);
+  }
+  100% {
+    @include opacity(1);
+    @include translateY(0);
+  }
+}
+

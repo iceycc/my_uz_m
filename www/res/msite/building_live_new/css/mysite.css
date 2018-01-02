@@ -1,0 +1,763 @@
+.color999 {
+    color: #999;
+}
+
+.margintop1 {
+    margin-top: 1rem;
+}
+
+.margintop05 {
+    margin-top: 0.5rem;
+}
+
+.marginauto {
+    margin: 0 auto;
+}
+
+.color_red {
+    color: #f85f48 !important;
+}
+
+.mysite_title .mysite_info {
+    text-align: center;
+    padding-bottom: .7rem;
+    border-bottom: 1px solid #f1f1f1;
+    margin-top: .3rem;
+}
+
+.mysite_title .mysite_info li {
+    border: 1px solid #2bb1fa;
+    padding: 0.1rem .5125rem;
+    display: inline-block;
+    font-size: .65rem;
+    min-height: .8rem;
+    line-height: .9rem;
+    color: #2bb1fa;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin: 0 0.3rem;
+}
+
+.mysite_title .ordername {
+    color: #5e6f74;
+    font-size: .9rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mysite_tit_ordernumb {
+    font-size: .5rem;
+    color: #999;
+    padding-left: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+.mysite_tit_ordernumb .dingdanbianhaos {
+    font-size: .6rem;
+}
+
+.mysite_title .icon-shiliangzhinengduixiang2s {
+    color: #aaa;
+    font-size: 1.5rem;
+    left: 1.2rem;
+    position: relative;
+}
+
+#node21 {
+    padding-top: 2rem;
+}
+
+#node21 .zxnode_logo {
+    top: 3.3rem
+}
+
+/*#node24 {
+    padding-top: 3.5rem;
+}
+
+#node24 .zxnode_logo {
+    top: 4.8rem;
+}*/
+#node1 {
+    padding-top: 0;
+}
+
+#node1 .zxnode_logo {
+    top: 1.38rem;
+}
+
+.mysite_companyname {
+    line-height: 1.9rem;
+}
+
+.musite_payment {
+    height: auto;
+    padding: .45rem 0;
+}
+
+.musite_payment .payment_speed {
+    line-height: 1.7rem;
+    text-indent: .25rem;
+}
+
+.musite_butler {
+    width: 100%;
+    background: #fff;
+    z-index: 88;
+}
+
+.musite_butler, .musite_butler_dable {
+    height: 3rem;
+    padding: .35rem 0;
+}
+
+.musite_butler_dable {
+    display: none;
+    height: 2.9rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.musite_butler .company_icon_box {
+    overflow: hidden;
+    position: relative;
+    left: 1rem;
+    top: .4rem;
+}
+
+.musite_butler .company_icon_box img {
+    width: 100%;
+    height: 100%;
+    width: 2.2rem;
+    height: 2.2rem;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.musite_butler .company_name {
+    padding-top: .4rem;
+}
+
+.musite_butler .company_name p {
+    text-indent: 1rem;
+}
+
+.musite_butler .company_name p.company_name2 {
+    text-indent: .91rem;
+    line-height: 1.3rem
+}
+
+.company_ul .phone_box {
+    width: 2.82rem;
+    height: 1.5625rem;
+    background: #ff6600;
+    color: #fff;
+    -webkit-border-radius: .75rem;
+    -moz-border-radius: .75rem;
+    -ms-border-radius: .75rem;
+    -o-border-radius: .75rem;
+    border-radius: .75rem;
+    position: relative;
+    top: .7rem;
+    right: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.company_ul .phone_box .icon-dianhuazb {
+    position: relative;
+    top: .05rem;
+    font-size: 1.3rem;
+}
+
+.musite_butler_scroll {
+    position: absolute;
+    left: 0;
+    top: 2.75rem;
+    z-index: 10000;
+}
+
+/*精选三家公司*/
+.three_company {
+    font-size: .75rem;
+}
+
+.three_company span {
+    font-size: .6rem;
+    color: #f60;
+}
+
+/*指定管家*/
+
+.appoint_butler_logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin-right: .7rem;
+}
+
+.appoint_butler_logo img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.appoint_butler_text p {
+    font-size: .8rem;
+    color: #666;
+}
+
+.appoint_butler_text .phone_box {
+    width: 1.8rem;
+    height: 1rem;
+    font-size: .9rem;
+    background: #f60;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    border-radius: .5rem;
+    position: relative;
+    top: .2rem;
+}
+
+.appoint_butler_text .phone_box .icon-dianhuazb {
+    position: relative;
+    left: .5rem;
+    top: -.05rem;
+}
+
+#node21 .discuss, #node22 .discuss, #node23 .discuss {
+    display: none;
+}
+
+.three_company li {
+    margin-bottom: .4rem;
+}
+
+.three_company p {
+    color: #999;
+}
+
+.node_critics_text {
+    display: none;
+}
+
+.pay_box {
+    text-indent: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pay_box_title {
+    height: 1.8rem;
+    font-size: .75rem;
+    line-height: 1.2rem;
+    color: #333;
+    line-height: 1.8rem;
+    background: #f3f3f3;
+}
+
+#node8 .discuss {
+    border-top: none;
+    margin-top: 1rem;
+}
+
+.space_photo {
+    background: #f9f9f9;
+}
+
+.space_photo_list {
+    width: 7.4rem;
+    padding: 1rem 0;
+}
+
+.space_photo_boxpar {
+    width: 5.25rem;
+    height: 5.25rem;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+.space_box_up {
+    position: absolute;
+    left: .4rem;
+    top: .4rem;
+}
+
+.space_photo_box {
+    width: 4.83rem;
+    height: 4.83rem;
+    overflow: hidden;
+}
+
+.butler_phonenum {
+    position: relative;
+    left: .2rem;
+    top: .1rem;
+}
+
+.space_photo_border {
+    padding: .15625rem;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+/*2017-04-10 add 2.9 new start*/
+.comp_list {
+    width: 15rem;
+    padding-bottom:0.5rem;
+    background: #448aff url("../img/comp_bg.png") no-repeat center top;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    -webkit-box-shadow: 0 0 3px #ddd;
+    -moz-box-shadow: 0 0 3px #ddd;
+    box-shadow: 0 0 3px #ddd;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.comp_title {
+    text-align: center;
+}
+
+.comp_title p {
+    font-size: 0.65rem;
+    line-height: 1.8rem;
+    color: #fff;
+}
+
+.comp_title img {
+    width: 2.5rem;
+    height: 2.5rem;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.comp_gj_logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 auto;
+}
+
+.comp_text {
+    text-align: center;
+    margin-top: 0.3rem;
+    line-height: 1rem;
+}
+
+.comp_name {
+    font-size: 0.65rem;
+    color: #333;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.comp_complete {
+    margin-right: 0.5rem;
+}
+
+.comp_complete, .comp_abuilding {
+    display: inline-block;
+}
+
+.comp_complete span, .comp_abuilding span {
+    display: inline-block;
+    color: #999;
+    font-size: 0.6rem;
+}
+
+.comp_grade {
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.comp_grade ul {
+    text-align: center;
+}
+
+.comp_grade ul li {
+    font-size: 0.65rem;
+    color: #448aff;
+    display: inline-block;
+    border-right: 1px solid #448aff;
+    line-height: 1em;
+    padding: 0 0.5rem;
+    text-indent: -0.4em;
+}
+
+.comp_grade ul li:last-child {
+    border-right: none;
+}
+
+.appoint_gj .comp_list {
+    background-color: #f85f48;
+}
+
+.see_jgmoremas a, .appoint_gj .comp_endname, .appoint_gj .comp_endnum, .appoint_gj .comp_abuildingname, .appoint_gj .comp_abuildingnum, .appoint_gjname {
+    font-size: 0.7rem;
+    color: #333;
+    text-align: center;
+}
+
+.see_jgmoremas {
+    text-align: center;
+    padding-bottom: 0.4rem;
+}
+
+.gj_phonenum {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+}
+
+.gj_phonenum a {
+    color: #448aff;
+}
+
+.node_statr {
+    width: 100%;
+    min-height: 2rem;
+    background: #ccc;
+}
+
+.company_link {
+    position: relative;
+}
+
+.company_link .comp_link_a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.pay_table {
+    width: 14rem;
+    margin: 0 auto;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    color: #2bb1fa;
+    font-size: 0.625rem;
+}
+
+.pay_table th {
+    color: #333;
+}
+
+.pay_table th, .pay_table td {
+    border: 1px solid #d5dade;
+    height: 1.8rem;
+}
+
+.pay_table td {
+    width: 50%;
+}
+
+.pay_num {
+    color: #999;
+}
+
+.pay_tablebox {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 0.6rem 0;
+}
+
+/*2017-04-10 add 2.9 new end*/
+
+/*2017-06-23 2.91 zhifu start*/
+
+.accp {
+    width: 100%;
+    background: #f9f9f9;
+    overflow: hidden;
+    margin: 1rem 0;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.accp_title {
+    width: 14.5rem;
+    margin: 0 auto;
+    height: 1.28125rem;
+    line-height: 1.28125rem;
+    font-size: 0.6875rem;
+    color: #333;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 0.65625rem;
+    text-indent: 0.4rem;
+}
+
+.accp_button {
+    width: 90%;
+    height: 1.59375rem;
+    line-height: 1.59375rem;
+    margin: 0.4rem auto;
+    background: #448aff;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.accp_cont {
+    font-size: 0;
+    text-align: left;
+}
+
+.acct_conttitle {
+    display: inline-block;
+    width: 5.5rem;
+    height: 1.3125rem;
+    line-height: 1.3125rem;
+    color: #999;
+    font-size: 0.6875rem;
+    vertical-align: top;
+    text-align: center;
+}
+
+.acct_contres {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.3125rem;
+}
+
+.acct_contres span {
+    font-size: 0.6875rem;
+}
+
+.acct_contrestext {
+    height: 1.25rem;
+    width: 6.1825rem;
+    display: inline-block;
+    border: 1px solid #d5dade;
+    vertical-align: middle;
+    text-align: center;
+    background: #fff;
+}
+
+.acct_contrestext span {
+    color: #333;
+}
+
+.acct_contrestext .icon-jiahao {
+    font-size: 0.5rem;
+    color: #999;
+    margin-right: 0.3rem;
+}
+
+.acc_danwei {
+    display: inline-block;
+    line-height: 1.3125rem;
+    vertical-align: middle;
+    margin-left: .3rem;
+    color: #999;
+}
+
+.pay_node {
+    overflow: hidden;
+    margin: 1rem 0;
+    -webkit-box-shadow: 0 0 3px #ddd;
+    -moz-box-shadow: 0 0 3px #ddd;
+    box-shadow: 0 0 3px #ddd;
+}
+
+.pay_node_title {
+    height: 2.28125rem;
+    background: #448aff;
+    width: 100%;
+    line-height: 2.28125rem;
+    color: #fff;
+    font-size: 0.8125rem;
+    text-align: center;
+}
+
+.pay_node_ul {
+    font-size: 0.75rem;
+    width: 90%;
+    margin: 0.3125rem auto;
+}
+
+.pay_node_ul h2 {
+    font-size: 0.75rem;
+}
+
+/*
+.pay_node_list {
+    display: flex;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.pay_node_list p {
+    flex: 1;
+    overflow: hidden;
+}
+*/
+
+.pay_node_mas {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #ebebed;
+    border-top: none;
+    margin: 0.25rem auto;
+}
+
+.pay_node_mas h2 {
+    height: 1.875rem;
+    line-height: 1.875rem;
+    width: 100%;
+    background: url("../img/pay_titlebg.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.par_node_masnum {
+    width: 100%;
+    border-top: 1px dashed #e6e6e6;
+    padding: 0.4rem 0 0.84rem 0;
+    background: #f2f3f7;
+}
+
+.par_node_masleft {
+    color: #999;
+}
+
+.par_node_masright {
+    color: #333;
+}
+
+.pay_node_mas h2 .icon-qian {
+    font-size: 0.7rem;
+    color: #333;
+}
+
+.pay_node_mas h2 span {
+    font-size: 0.625rem;
+    color: #333;
+}
+
+.par_node_masli {
+    width: 100%;
+    height: 1.28125rem;
+    line-height: 1.28125rem;
+    color: #999999;
+    font-size: 0.625rem;
+}
+
+.par_node_masleft {
+    text-align: right;
+}
+
+.par_node_masright {
+    text-align: left;
+    text-indent: .5rem;
+}
+
+.par_node_masleft, .par_node_masright {
+    width: 50%;
+}
+
+.pay_button {
+    width: 100%;
+    text-align: center;
+}
+
+.pay_button input {
+    -webkit-appearance: none;
+    width: 90%;
+    margin: 0.5rem 0;
+    height: 1.59375rem;
+    background: #ff8042;
+    color: #fff;
+    line-height: 1.59375rem;
+    text-align: center;
+    outline: none;
+    font-size: 0.6875rem;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.node_title_gain {
+    height: 1.0625rem;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #0cb084;
+    vertical-align: middle;
+    line-height: 1.0625rem;
+    margin-left: 0.3rem;
+    border-radius: 3px;
+    color: #0cb084;
+    font-size: 0.75rem;
+    padding: 0 0.35rem;
+}
+
+.pay_node_list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.pay_node_list p {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.pay_money_number{
+    font-size:0;
+    width:90%;
+    margin:0 auto;
+    height:1.625rem;
+    line-height: 1.624rem;
+    margin-top:0.5rem;
+}
+.pay_money_number span,.pay_money_number input{
+    font-size:0.6875rem;
+}
+.pay_money_number span{
+    color: #333333;
+    width:4rem;
+    text-indent: 0.2rem;
+    display: inline-block;
+}
+.pay_money_number input{
+    color: #333;
+    border:1px solid #e3e3e3;
+    text-indent: 0.2rem;
+    height:1.5625rem;
+    width:9.2975rem;
+}
+/*2017-06-23 2.91 zhifu end*/

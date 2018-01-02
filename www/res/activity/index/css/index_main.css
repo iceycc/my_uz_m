@@ -1,0 +1,455 @@
+body {
+    background: #f5f5f5;
+    font-family: "Microsoft YaHei", "STHeitiSC-Medium", "Droid Sans Fallback";
+}
+
+h1, h2, h3, h4, h5, input {
+    font-family: "Microsoft YaHei", "STHeitiSC-Medium", "Droid Sans Fallback";
+}
+
+.color_org {
+    color: orange;
+}
+
+.color_999 {
+    color: #999;
+}
+
+#layer-cancel {
+    color: #999 !important;
+}
+
+#layer-ok {
+    color: #ffa41f !important;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 3rem;
+}
+
+#index-banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 3rem;
+}
+
+.banner-link img {
+    width: 100%;
+    height: 3rem;
+    display: block;
+}
+
+.swiper-container-horizontal > .swiper-pagination {
+    bottom: 0.03rem;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 2px;
+}
+
+.swiper-pagination-bullet {
+    width: 24px;
+    height: 3px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: .2;
+    border-radius: 2px;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #ff6600;
+}
+
+.numtim {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    height: 2.61rem;
+    line-height: 2.61rem;
+    font-size: 0;
+}
+
+.numtim_logo, .numtim_text {
+    height: 1rem;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 0.3rem;
+}
+
+.numtim_logo {
+    background: url("../img/tj_num_icon.png") no-repeat;
+    background-size: 100%;
+    width: 1rem;
+    height: 1rem;
+}
+
+.numtim .nt_number {
+    color: #ff9800;
+    font-size: 0.5rem;
+}
+
+.infotext, .numtim {
+    background: #fff;
+}
+
+.infotext {
+    padding: 0 0.2rem;
+}
+
+.if_states li {
+    width: 100%;
+    height: 0.95rem;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 0.95rem;
+    position: relative;
+}
+
+.post_text {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.if_states li input {
+    height: 0.95rem;
+    border: none;
+    outline: none;
+    text-align: right;
+    width: 4rem;
+    font-size: 0.3rem;
+    color: #333;
+    display: block;
+    float: right;
+    font-size: 0.3rem;
+    font-family: "Microsoft YaHei";
+    /* position: absolute;
+     right:0;
+     top:0;*/
+}
+
+.if_states li input::-webkit-input-placeholder {
+    color: #c9c9c9;
+    font-size: 0.24rem !important;
+    font-family: "Microsoft YaHei";
+    height: 1rem;
+}
+
+.if_states li input::-moz-input-placeholder {
+    color: #c9c9c9;
+    font-size: 0.24rem !important;
+    font-family: "微软雅黑";
+}
+
+.if_states li input:-ms-input-placeholder {
+    color: #c9c9c9;
+    font-size: 0.24rem !important;
+    font-family: "微软雅黑";
+}
+
+.if_states li input:input-placeholder {
+    color: #c9c9c9;
+    font-size: 0.24rem !important;
+    font-family: "微软雅黑";
+    margin-top: 1rem;
+}
+
+.if_states li select {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: #fff;
+    outline: 0;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0;
+    border: none;
+    color: #999;
+    direction: rtl;
+    width: 1.5rem;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 0.3rem;
+}
+
+.if_states li select option {
+    text-align: center;
+    height: 1rem;
+    padding: 1rem;
+}
+
+.province {
+    height: 100%;
+    padding: 0;
+}
+
+.if_listtitle {
+    font-size: 0.3rem;
+    color: #333;
+    height: 0.95rem;
+    line-height: 0.95rem;
+}
+
+.if_listtitle span {
+    font-size: 0.25rem;
+    color: red;
+    padding: 0.1rem;
+}
+
+.if_states li input::-webkit-input-placeholder {
+    font-size: 0.24rem;
+    text-align: right;
+}
+
+.if_states li input:-ms-input-placeholder {
+    font-size: 0.24rem;
+    text-align: right;
+}
+
+.info_Choice .if_address {
+    border-bottom: 1px solid transparent !important;
+}
+
+.info_Choice .if_listtitle span {
+    opacity: 0;
+}
+
+.sex_minu {
+    font-size: 0.3rem;
+    color: #999;
+    line-height: 0.95rem;
+}
+
+.sex_minu .iconfont {
+    color: #ccc;
+}
+
+.sex_left {
+    margin-right: 0.3rem;
+}
+
+.info_import .sex_active {
+    color: #333;
+}
+
+.info_import .sex_active .iconfont {
+    color: #ff6969;
+}
+
+.info_import .sex_left.sex_active .iconfont {
+    color: #47a2ff;
+}
+
+.info_Choice .sex_active {
+    color: #333;
+}
+
+.info_Choice .sex_active .iconfont {
+    color: #ffa41f;
+}
+
+.if_many {
+    font-size: 0.3rem;
+    color: #999;
+    position: relative;
+    z-index: 2;
+    height: 0.95rem;
+    line-height: 0.97rem;
+}
+
+.textmany_area {
+    right: 0.2rem !important;
+}
+
+.textmany_wy {
+    right: 0.45rem !important;
+}
+
+.if_sub {
+    width: 6.6rem;
+    height: 0.94rem;
+    margin: 0.28rem auto;
+    background: #ffa41f;
+    font-size: 0.3rem;
+    color: #fff;
+    border: none;
+    display: block;
+    border-radius: 0.1rem;
+    outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.is_disa {
+    opacity: 0.4;
+}
+
+
+
+/**/
+
+input, select {
+    font-family: "Microsoft YaHei", "STHeitiSC-Medium", "Droid Sans Fallback" !important;
+}
+
+.numtim_text {
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+    text-align: left;
+}
+
+.numtim_text h2 {
+    font-weight: normal;
+    font-size: 0.3rem;
+    letter-spacing: 1px;
+    line-height: 0.5rem;
+}
+
+.numtim_text p {
+    font-size: 0.24rem;
+    color: #999;
+    margin-top: 0.08rem;
+}
+
+.user_agreement {
+    color: #999;
+    text-align: center;
+    font-size: 0;
+    line-height: 0.3rem;
+}
+
+.user_agreement .iconfont {
+    font-size: 0.22rem;
+    margin-right: 0.15rem;
+}
+
+.user_agreement a {
+    font-size: 0.22rem;
+    color: #999;
+}
+
+.if_smscode .smscode {
+    width: 1.1rem;
+    text-align: left !important;
+    text-indent: 1px;
+}
+
+.if_smscode .sms_minu_cont {
+    font-size: 0;
+    line-height: 0.95rem;
+    height: 0.95rem;
+    overflow: hidden;
+}
+
+.if_smscode .smsminu {
+    width: auto;
+    background: none;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    height: 0.53rem;
+    line-height: 0.5rem;
+    border: 1px solid #ffa41f;
+    color: #ffa41f;
+    font-size: .24rem;
+    padding: 0 .22rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    position: relative;
+    top: 0.02rem;
+
+}
+
+.if_states li.if_smscode input::-webkit-input-placeholder {
+    font-size: 0.24rem;
+    text-align: left;
+}
+
+.if_states li.if_smscode input:-ms-input-placeholder {
+    font-size: 0.24rem;
+    text-align: left;
+}
+
+.auto-timer {
+    font-size: 0.2rem !important;
+}
+
+.smsminu.waiting {
+    color: #999;
+    background: #f1f1f1;
+    border-color: #eee;
+}
+
+.alert_mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8) url("../img/shear_alert_img.png") no-repeat 50% 0;
+    background-size: 90%;
+    z-index: 1000;
+}
+
+.alert_mask_close {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1rem;
+    top: 62%;
+}
+
+.header_arrow {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.numtim_mstext{
+    font-size:12px;
+    color: #47a2ff;
+    line-height:0.8rem;
+    text-align: center;
+    background: #fff;
+    margin-bottom:0.2rem;
+}
+/*flow start*/
+.flowimg{
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    z-index:100;
+    left:0;
+    top:0;
+}
+
+.flow_box{
+    width:5.28rem;
+    height:8rem;
+    background: url("../img/flow1.png") no-repeat;
+    background-size:100%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top:-4.44rem;
+    margin-left:-2.64rem;
+    border-radius:.7rem;
+}
+.flow_box .flow_close{
+    position: absolute;
+    left:50%;
+    bottom:-1rem;
+    font-size:1rem;
+    color: #888;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+/*flow end*/

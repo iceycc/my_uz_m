@@ -1,0 +1,133 @@
+/**
+ 
+ @Name: layui
+ @Author: 贤心
+ @Site: http://www.layui.com
+ 
+ */
+
+
+/* 初始化 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,button,textarea,p,blockquote,th,td,form{margin:0; padding:0;}
+body{line-height:24px; font:14px '\5FAE\8F6F\96C5\9ED1',Tahoma,Arial,Helvetica,sans-serif; overflow-x:hidden; }
+body{-webkit-font-feature-settings: 'kern' 1; -moz-font-feature-settings: 'kern' 1; -o-font-feature-settings: 'kern' 1; text-rendering: geometricPrecision;}
+*{box-sizing:content-box;}
+img{display:inline-block; border:none;}
+em,i{font-style:normal; font-weight:normal;}
+li{list-style:none;}
+table{border-collapse:collapse; border-spacing:0;}
+h1,h2,h3{font-size:14px; font-weight:400;}
+h4, h5, h6{font-size:100%; font-weight:400;}
+button,input,select,textarea{font-size:100%; }
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; outline: 0;}
+/*button{border:none;}*/
+address,cite,dfn,em,var{font-style:normal;}
+pre{white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;}
+
+/* 滚动条 */
+::-webkit-scrollbar{width: 8px; height: 8px;}
+::-webkit-scrollbar-button:vertical{display:none;}
+::-webkit-scrollbar-track:vertical{background-color:black;}
+::-webkit-scrollbar-track-piece{background-color: #F5F5F5;}
+::-webkit-scrollbar-thumb:vertical{margin-right:10px; background-color: #999;}
+::-webkit-scrollbar-thumb:vertical:hover{background-color: #666;}
+::-webkit-scrollbar-corner:vertical{background-color:#535353;}
+::-webkit-scrollbar-resizer:vertical{background-color:#FF6E00;}
+
+/* 图标字体 */
+@font-face {font-family: 'layui-icon';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+                    
+.layui-icon{
+  font-family:"layui-icon" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 初始化标签风格 */
+a{color:#444; text-decoration:none; }
+a:hover{color:#999;}
+/* input, textarea{border:1px solid #DFDFDF; padding:0 5px; font-size:14px; color:#555;   background-color: #fff;} */
+.input{width:300px; height:26px; line-height:26px;}
+.inputs{width:300px; height: 36px; line-height:36px;}
+textarea{width: 600px; height: 150px; padding: 8px; line-height:22px;}
+a cite{*cursor:pointer;}
+.float{float: left;}
+/*button, .layui-btn{width:auto; /* height:36px; */ /*line-height:36px; padding:0 20px; font-size:14px; border:none; background-image:none; background-color:#009E94; color:#fff; 
+cursor:pointer; overflow:hidden; *overflow:visible; border-radius: 2px; }*/
+/*button:hover, .layui-btn:hover{background-color:#5FB878; color:#fff; transition: all .3s}
+*/
+fieldset{padding: 15px; border: 1px solid #DFDFDF;}
+legend{padding: 0 12px;}
+.labelf{ max-width: 58px;white-space: pre-wrap;line-height: 2.5;height: 32px;text-align: center;}
+.labelr{max-width: 58px;white-space: pre-wrap;height: 32px ;text-align: center;}
+.btn-white{height: 23px;}
+/* 基础公用 */
+
+
+/* 表单模版 */
+.layui-form-li{margin-bottom: 20px; font-size: 0;}
+.layui-form-li *{font-size: 14px;}
+.layui-form-label,
+.layui-form-label *,
+.layui-form-select,
+.layui-form-li fieldset,
+.layui-upload-button{position: relative; display: inline-block; *display:inline; *zoom:1; vertical-align:top; font-size: 12px}
+
+.layui-form-li .layui-inline{line-height: 36px;}
+.layui-form-li .layui-form-label{margin:0 10px 10px 0; white-space: nowrap; font-size: 0;}
+.layui-form-li fieldset{padding-bottom: 5px; padding-right: 5px; font-size: 0;}
+.layui-form-label label{width: 60px; padding:2px 10px; /*line-height: 36px;*/ border: 1px solid #DFDFDF; background-color: #F8F8F8;/* text-align: center;*/ /* text-overflow: ellipsis; overflow: hidden; */}
+.layui-form-label .layui-form-select{left: -1px}
+.layui-form-label input{left: -1px; padding-left:8px}
+.layui-form-label .layui-form-option li{display: block;}
+.layui-form-tips{font-size: 12px; color: #999;}
+.layui-form-area label{display: block; width: auto; text-align: left;}
+.layui-form-area textarea{top: -1px; }
+
+.layui-form-strength{display: none; position: absolute; left: 0; top: 42px; width: 100%; height: 8px; background-color: #eee;}
+.layui-form-strength span{position: absolute; left: 0; top: 0; width: 0; height: 8px; background-color: #5FB878; transition: all .3s; -webkit-transition: all .3s}
+
+.layui-form-label input[type=checkbox],
+.layui-form-checkbox input{display: none;}
+.layui-form-checkbox{cursor: pointer;}
+.layui-form-checkbox label{width: auto; background-color: #DFDFDF; color: #fff; cursor: pointer;}
+.layui-form-sure{left: -1px; width: 36px; height: 36px; line-height: 36px; border: 1px solid #DFDFDF; text-align: center; font-size: 18px; color: #5FB878;}
+.layui-form-checked label{border: 1px solid #5FB878; background-color: #5FB878;}
+.layui-form-checked .layui-form-sure{border: 1px solid #5FB878;}
+
+.layui-form select{display: none;}
+.layui-form-select{position:relative; z-index: 100; height: 36px; margin-right: 10px; border: 1px solid #DFDFDF;}
+.layui-form-sltitle{height:36px; line-height:36px; padding:0 40px 0 8px; cursor:pointer;}
+.layui-form-sltitle span{padding:0;}
+.layui-form-sltitle .layui-edge{position:absolute; right:10px; top:50%; margin-top:-2px; border-width:6px; border-top-color:#aaa; border-top-style:solid;}
+.layui-form-option{display:none; position: relative; top: 0; left:-1px; width: 100%; max-height: 200px; overflow-y: auto; border:1px solid #DFDFDF; background-color:#fff;}
+.layui-form-option li{position:relative; height: 26px; line-height: 26px;}
+.layui-form-option li a{display:block;  padding:0 8px;}
+.layui-form-option li a:hover{background-color:#F7F7F7; color:#333;}
+
+/* 文件上传模块 */
+
+
+/* 分页 */
+w .layui-laypage-nomore{color:#999}
+
+/* 大框架 */
+
+
+/* Tab选项卡 */
+
+
+/* fixBlock */
+
+
+/* 动画 */

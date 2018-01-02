@@ -1,0 +1,164 @@
+img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.header {
+	display: flex;
+	align-items: center;
+	height: 2.8125rem;
+	border-bottom: 0.0625rem solid #e9e9e9;
+}
+.search-input {
+	position: relative;
+	margin-left: 0.5625rem;
+	width: 16.25rem;
+	height: 2rem;
+}
+.search-input input {
+	padding: 0 1.75rem;
+	width: 12.9375rem;
+	height: 100%;
+	font-size: 0.9375rem;
+	color: #333;
+	background-color: #ededed;
+	border: 0;
+	border-radius: 0.3125rem;
+	outline: none;
+}
+.search-input i {
+	position: absolute;
+	font-size: 1rem;
+}
+.icon-sousuo {
+	left: 0.3125rem;
+	top: 0.4375rem;
+	color: #c9c9c9;
+}
+.icon-guanbis {
+	right: 0.4375rem;
+	top: 0.5rem;
+	color: #9e9e9e;
+}
+#go-back {
+	position: static;
+	padding-left: 0.5625rem;
+	height: 100%;
+	line-height: 2.8125rem;
+	font-size: 0.9375rem;
+	color: #333;
+}
+
+
+.building-list {
+	position: relative;
+	margin: 0.625rem 0.9375rem 0;
+	display: none;
+}
+.building-list li {
+	margin-bottom: 0.625rem;
+	height: 4.875rem;
+	border-bottom: 0.0625rem dashed #e0e0e0;
+	overflow: hidden;
+}
+.building-list li:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.building-list li a {
+	display: block;
+	height: 4.1875rem;
+}
+.img-box {
+	float: left;
+	width: 5.625rem;
+	height: 4.1875rem;
+}
+.img-box img {
+	width: 5.625rem;
+}
+
+.word-box{
+	position: relative;
+	padding-left: 6.125rem;
+	width: 12.125rem;
+	height: 4.1875rem;
+}
+.word-box h3 {
+	height: 1.25rem;
+	line-height: 1.25rem;
+	font-size: 0.875rem;
+	color: #333;
+	overflow: hidden;
+}
+.word-box p {
+	position: absolute;
+	left: 6.125rem;
+	bottom: 0;
+	height: 2rem;
+	line-height: 1rem;
+	font-size: 0.75rem;
+	color: #ababab;
+	overflow: hidden;
+}
+
+/* 无结果 */
+.no-result {
+	margin-top: 3.625rem;
+	text-align: center;
+	display: none;
+}
+.icon-wujieguo {
+	font-size: 2rem;
+	color: #e0e0e0;
+}
+.no-result p {
+	font-size: 0.9375rem;
+	color: #999;
+}
+
+/* 历史记录 */
+.history {
+	display: none;
+}
+.history-list {
+	margin: 0 0.5rem;
+}
+.history-list li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	border-bottom: 0.0625rem solid #eaeaea;
+}
+.history-list li p {
+	display: flex;
+	align-items: center;
+}
+.icon-days {
+	font-size: 1.625rem;
+	color: #cbcbcb;
+}
+.icon-close {
+	float: right;
+	font-size: 1.25rem;
+	color: #cbcbcb;
+}
+.clearall {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.9375rem;
+	width: 10.3125rem;
+	height: 1.875rem;
+	font-size: 0.875rem;
+	color: #666;
+	background-color: #f0f0f0;
+	transform: translateX(50%);
+}
+
+.show {
+	display: block;
+}

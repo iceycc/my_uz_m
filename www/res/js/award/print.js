@@ -1,0 +1,56 @@
+  var LODOP; 
+    function prn1_preview() { 
+        CreateOneFormPage();  
+        var iCurLine=80;
+        $("tbody tr.print_manage").each(function(){
+            var td_position = 15;
+             LODOP.ADD_PRINT_TEXT(iCurLine,15,100,20,$(this).find("td:eq(0)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,95,100,20,$(this).find("td:eq(1)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,155,200,20,$(this).find("td:eq(2)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,300,200,20,$(this).find("td:eq(3)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,455,200,20,$(this).find("td:eq(4)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,595,100,20,$(this).find("td:eq(5)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,695,200,20,$(this).find("td:eq(6)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,755,200,20,$(this).find("td:eq(7)").text());
+             LODOP.ADD_PRINT_TEXT(iCurLine,850,200,20,$(this).find("td:eq(8)").text());
+             iCurLine=iCurLine+25;
+            });
+            LODOP.ADD_PRINT_LINE(iCurLine,14,iCurLine,510,0,1);
+            LODOP.PREVIEW();
+            no();   
+  };
+  function CreateOneFormPage(){
+            LODOP.PRINT_INIT("装修推荐打款名单");
+            LODOP.ADD_PRINT_TEXT(15,300,355,30,"装修推荐打款名单");
+            LODOP.SET_PRINT_STYLEA(1,"FontSize",13);
+            LODOP.SET_PRINT_STYLEA(1,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,15,100,20,"编号");
+            LODOP.SET_PRINT_STYLEA(2,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(2,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,95,100,20,"姓名");
+            LODOP.SET_PRINT_STYLEA(3,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(3,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,155,200,20,"身份证号");
+            LODOP.SET_PRINT_STYLEA(4,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(4,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,300,180,20,"银行账号");
+            LODOP.SET_PRINT_STYLEA(5,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(5,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,455,200,20,"开户行 支行");
+            LODOP.SET_PRINT_STYLEA(6,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(6,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,595,100,20,"提现金额");
+            LODOP.SET_PRINT_STYLEA(7,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(7,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,695,200,20,"审核人");
+            LODOP.SET_PRINT_STYLEA(8,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(8,"Bold",1);
+             LODOP.ADD_PRINT_TEXT(50,755,200,20,"财务人员");
+            LODOP.SET_PRINT_STYLEA(8,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(8,"Bold",1);
+            LODOP.ADD_PRINT_TEXT(50,850,200,20,"审核日期");
+            LODOP.SET_PRINT_STYLEA(8,"FontSize",10);
+            LODOP.SET_PRINT_STYLEA(8,"Bold",1);
+            LODOP.ADD_PRINT_LINE(72,14,73,700,0,1);
+  }; 
+

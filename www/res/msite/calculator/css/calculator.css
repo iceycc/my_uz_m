@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* wushi 2016-07-05 */
+section { margin:0 auto; max-width: 25.8125rem; }
+
+#calculator-banner {
+	position: relative;
+	margin-top: 2.6875rem;
+	width: 100%;
+	height: 6.125rem;
+	overflow: hidden;
+}
+#calculator-banner img {
+	width: 100%;
+	height: 6.125rem;
+	display:block;
+}
+
+
+#apply-form { margin: 1.25rem 0.4375rem 1.4rem 0.4375rem; }
+#name-box, #phone-box { position: relative;}
+#user-area{ background: url(../img/areaIcon.gif) no-repeat 98% center; background-size: 1.125rem 1.125rem;}
+.apply-input {
+	-webkit-appearance: none;
+	display: block;
+	margin-bottom: 0.625rem;
+	width: 100%;
+	height: 1.875rem;
+	border: 1px solid #e4e4e4;
+	font: normal 0.8125rem/1.875rem "STHeitiSC-Light","Microsoft YaHei";
+	text-indent: 0.5625rem;
+	color: #333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+.apply-input:focus { border-color: #a4c6fd; outline: none;}
+#province { position: relative;}
+#select-01 {
+	position: relative;
+	-webkit-appearance: none;
+	display: block;
+	margin-bottom: 0.625rem;
+	width: 100%;
+	height: 1.875rem;
+	border: 1px solid #e4e4e4;
+	font: normal 0.8125rem/1.875rem "STHeitiSC-Light", "Microsoft YaHei";
+	text-indent: 0.5625rem;
+	color: #333;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	background: url(../img/selectarrow.gif) no-repeat 98% center;
+	background-size: 1.125rem 1.125rem;
+}
+.blue-btn {
+	margin-top:1.25rem;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 2.25rem;
+	font: normal 0.875rem/2.25rem "STHeitiSC-Light","Microsoft YaHei";
+	text-align: center;
+	border-width: 0;
+	background-color: #0082ca;
+	color: #fff;
+	cursor: pointer;
+	-webkit-border-radius: 0.3125rem;
+	-ms-border-radius: 0.3125rem;
+	-moz-border-radius: 0.3125rem;
+	-o-border-radius: 0.3125rem;
+	border-radius: 0.3125rem;
+	display:block;
+}
+#errorCue{
+	position: fixed;
+	top: -2.5rem;
+	left: 0;
+	width: 100%;
+	height: 2.6875rem;
+	line-height: 2.5rem;
+	text-align: center;
+	background-color: #F06464;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in 0s;
+	-ms-transition: all 0.3s ease-in 0s;
+	-moz-transition: all 0.3s ease-in 0s;
+	-o-transition: all 0.3s ease-in 0s;
+	transition: all 0.3s ease-in 0s;
+	z-index: 1;
+}
+#errorCue.ios {
+	position: absolute;
+	-webkit-transition: all 0.05s ease-in 0s;
+	-ms-transition: all 0.05s ease-in 0s;
+	-moz-transition: all 0.05s ease-in 0s;
+	-o-transition: all 0.05s ease-in 0s;
+	transition: all 0.05s ease-in 0s;
+}
+#errorMsg{
+	font: 0.75rem "Microsoft YaHei";
+	color: #fff;
+}
+#errorCue.show {
+	top: 0;
+	opacity: 1;
+	z-index: 998;
+}
+.infoMod { margin: 0 1.25rem 1rem 1.25rem; }
+.infoMod .tit{ font: normal 0.8125rem/1.875rem "STHeitiSC-Light", "Microsoft YaHei"; color:#fa5c17;}
+.infoMod .desc{ font: normal 0.6875rem/1rem "STHeitiSC-Light", "Microsoft YaHei"; color:#131424; margin-top:0.5rem;}
+.col_008{ color:#0082ca; text-decoration:underline;}
+
+.resultMod{ margin:1.5625rem 0.4375rem;}
+.resultMod .hd{ width:16.375rem; height:2.1875rem; text-align:center; margin:0 auto 0.75rem auto; background:url(../img/tit_bg.png) no-repeat; background-size:cover; font: normal 0.8125rem/2.1875rem "STHeitiSC-Light", "Microsoft YaHei"; color:#fff; }
+.resultMod .unitPrice li{ width:8.875rem; height:2.0625rem; float:left; font: normal 0.6875rem/2.0625rem "STHeitiSC-Light", "Microsoft YaHei"; color:#fe7c52; background:url(../img/desc_bg.gif) no-repeat; background-size:cover; text-align:center; margin:0.75rem 0 0 0.5rem;}
+.resultMod .unitPrice li .tit { width:3.875rem; float:left; color:#333;}
+.resultMod .unitPrice li .num { width:5rem; color:#fe7c52;}
+
+.stepMod { text-align:center; margin:0 0.4375rem ; }
+.stepMod .hd .tit,.monitorMod .hd .tit{ font:bold 1rem/1.4rem "STHeitiSC-Light", "Microsoft YaHei"; color:#0082ca; letter-spacing:0.3rem;}
+.stepMod .hd .desc,.monitorMod .hd .desc{ font:normal 0.8125rem/1.4rem "STHeitiSC-Light", "Microsoft YaHei"; color:#404040;}
+.stepMod .step{ margin-top:1rem;}
+.stepMod .step li{ float:left; background:#29adfe; width:6.25rem; height:7.5rem; -moz-border-radius:0.625rem; -webkit-border-radius:0.625rem; -khtml-border-radius:0.625rem; border-radius:0.625rem; margin-left:0.075rem;}
+.stepMod .step li .tit{ font:normal 0.6875rem/0.75rem "STHeitiSC-Light", "Microsoft YaHei"; color:#97d1fe; margin-top:0.8rem;}
+.stepMod .step li .desc{ font:normal 0.875rem/1.2rem "STHeitiSC-Light", "Microsoft YaHei"; color:#fff; margin-top:0.6rem;}
+.stepMod .step li .info{ font:normal 0.6875rem/0.875rem "Adobe 黑体 Std R", "Microsoft YaHei"; color:#fff; margin-top:0.5rem;}
+
+.monitorMod{ background:url(../img/monitorMod_bg.jpg) no-repeat; background-size:cover; height: 10.625rem; color:#fff; text-align:center; overflow:hidden; margin-top:1.6875rem;}
+.monitorMod .hd{ margin-top:1.5rem;}
+.monitorMod .hd .tit,.monitorMod .hd .desc{ color:#fff;}
+.monitorMod .bd ul{ margin-top:0.875rem;}
+.monitorMod .bd li{ font:normal 0.6875rem/1rem "STHeitiSC-Light", "Microsoft YaHei"; display:inline-block;*display:inline;*zoom:1; width:8.125rem;}
+.monitorMod .num{ font: normal 1.0625rem/1rem "Brush Script Std Medium", "Microsoft YaHei"; margin-right:0.3125rem;}
+
+.capitalMod{ background:url(../img/capitalMod.jpg) no-repeat; background-size:cover; height:14.6875rem;}
+.capitalMod .hd .tit{ font:normal 0.9375rem/1.125rem "方正兰亭特黑_GBK", "Microsoft YaHei"; color:#0082ca; float:right; width:10rem; margin:2rem 1rem 0 0; text-align:center;}
+
+.serviceMod{ color:#fff; background:#29adfe url(../img/serviceMod.jpg) no-repeat; background-size:cover; text-align:center; height:21rem; overflow:hidden; position:relative;}
+.serviceMod .tit{ font:normal 0.875rem/1.2rem "STHeitiSC-Light", "Microsoft YaHei"; margin-top:1rem;}
+.serviceMod .desc{ font: normal 0.6875rem/1rem "STHeitiSC-Light", "Microsoft YaHei"; margin-top:0.2rem; color:#d7ecff;}
+.serviceMod dl{ position:absolute; left:2rem; bottom:1.5rem; text-align:left;}
+.serviceMod dt{ font: normal 0.75rem/1.5rem "STHeitiSC-Light", "Microsoft YaHei";}
+.serviceMod dd{ font: normal 0.6875rem/1rem "STHeitiSC-Light", "Microsoft YaHei"; color:#d7ecff;}
+.col_fa5{ color:#fa5c17;}

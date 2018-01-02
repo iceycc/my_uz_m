@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0, minimal-ui"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<!--iphone桌面快捷方式图标<link rel="apple-touch-icon" href="custom_icon.png">-->
+<meta charset="utf-8">
+<meta property="qc:admins" content="50304154552051676375" />
+<meta name="keywords" content="装修管家,量房设计,装修施工,材料商城,环保方案,装修服务,装修图库,建材商城,装修攻略、优装网、装修网、优装美家">
+<meta name="description" content="优装美家为您提供免费专业咨询、免费量房、免费设计、免费装修保险、免费环保检测、优装网-专业装修网优选装修公司、优选建材商品、优选装修管家、优选环保服务">
+<title>优装美家—计算器结果</title>
+<link href="{R}msite/base/css/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="{R}msite/base/css/base.css" rel="stylesheet" type="text/css">
+<link href="{R}msite/calculator/css/calculator.css" rel="stylesheet" type="text/css">
+
+<div style="display:none">
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a9b93e0ac9bdda145e2d4f6ffa88ee5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb5fdc578640695ab74da0b40389ac54e' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <!-- 信息体系百度代码统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0a9b93e0ac9bdda145e2d4f6ffa88ee5";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</div>
+</head>
+<body id="managerPage">
+<header>
+	<a id="logo" href="mobile-index.html" target="_self" title="优装美家"><i class="iconfont icon-jingyu"></i></a> 
+	<!--<div class="tit_minu">
+        <a id="go-back" target="_self" title="优装美家">
+            <i class="iconfont icon-goback"></i>
+        </a>
+        <a class="back_index" href="mobile-index.html">首页</a>
+    </div>-->
+	<h1 class="header-title">装修要花多少钱？</h1>       
+</header>
+<!-- Banner S -->
+<div id="calculator-banner"> <a href="#"><img src="{R}msite/calculator/img/banner.jpg" alt="装修要花多少钱，10秒免费获取报价"></a> </div>
+<!-- Banner E -->
+<!-- resultMod S -->   
+<section>
+	<div class="resultMod">
+    	<div class="hd">您的装修预算约：<span id="totalPrice"></span>万元</div>
+        <div class="bd">
+        	<ul class="unitPrice clearfix" id="unitPrice">
+                <li><span class="tit">卧室预算</span><span class="num"></span>元</li>
+                <li><span class="tit">客厅预算</span><span class="num"></span>元</li>
+                <li><span class="tit">厨房预算</span><span class="num"></span>元</li>
+                <li><span class="tit">卫生间预算</span><span class="num"></span>元</li>
+                <li><span class="tit">阳台预算</span><span class="num"></span>元</li>
+                <li><span class="tit">其它预算</span><span class="num"></span>元</li>
+        	</ul>
+            
+    		<a href="mobile-calculator.html"  class="blue-btn">重新计算</a>
+        </div>
+    </div>
+</section>
+<!-- resultMod E -->
+<!-- infoMod S -->
+<section>
+  <div class="infoMod">
+  	<p class="tit">温馨提示:</p>
+    <p class="desc">1、该份报价为一年内所在地区半包（仅含轻工辅料）装修平均价格（不含水电、拆改），仅供参考</p>
+    <p class="desc">2、如果您希望更快获得精准报价，请拨打服务热线 <a href="tel:400-6171-666" class="col_008">400-6171-666</a>加急预约，我们会尽快安排1-3家正规公司上门量房</p>
+    <p class="desc">3、在优装美家平台选择装修公司可免费享受装修管家服务，为您提供专业预算、资深监理及管家顾问式装修管理</p>
+  </div>
+</section>  
+<!-- infoMod E --> 
+ <!-- stepMod S -->
+<section>
+	<div class="stepMod">
+  		<div class="hd"><h3 class="tit">靠谱装修服务只要3步</h3><p class="desc">报价审核、材料验收、施工质量等全程为您搞定</p></div>
+        <div class="bd">
+        	<ul class="step clearfix">
+            	<li>
+                	<p class="tit">施工前</p>
+                    <p class="desc">优选方案<br>满意为止</p>
+                    <p class="info">量身定制3家<br>装饰公司服务</p>
+                </li>
+                <li>
+                	<p class="tit">施工中</p>
+                    <p class="desc">装修管家<br>全程监管</p>
+                    <p class="info">7x24小时<br>1对1贴心服务</p>
+                </li>
+                <li>
+                	<p class="tit">竣工后</p>
+                    <p class="desc">无忧入住<br>环保保障</p>
+                    <p class="info">2次环保检测<br>竣工入住双保障</p>
+                </li>
+            </ul>
+        </div>
+  </div>
+</section>  
+<!-- stepMod E -->
+<!-- monitorMod S -->
+<section>
+	<div class="monitorMod">
+  		<div class="hd"><h3 class="tit">装修管家全程监控施工质量</h3><p class="desc">不用担心坑蒙骗</p></div>
+        <div class="bd">
+        	<ul>
+            	<li><span class="num">297</span>项报价审核</li>
+                <li><span class="num">198</span>个施工节点验收</li>
+                <li><span class="num">108</span>种材料验收</li>
+                <li><span class="num">28</span>项安全施工条例</li>
+                <li><span class="num">21</span>个服务节点日志</li>
+                <li><span class="num">2</span>次环保检测</li>
+            </ul>
+        </div>
+  </div>
+</section>  
+<!-- monitorMod E -->
+<!-- capitalMod S -->
+<section>
+	<div class="capitalMod">
+  		<div class="hd"><h3 class="tit">资金全程托管<br>验收满意后再付款</h3></div>
+  </div>
+</section>  
+<!-- capitalMod E -->
+<!-- serviceMod S -->
+<section>
+	<div class="serviceMod">
+  		<div class="hd">
+            <h3 class="tit">目前我们正在为全国八个城市<br><span class="col_fa5">2467位装修用户</span>服务</h3>
+            <p class="desc">97%业主反馈选择优装美家装修管家让他们入住无忧</p>
+        </div>
+        <div class="bd">
+        	<dl>
+            	<dt>现已开通</dt>
+                <dd>北京 天津 上海 杭州</dd>
+                <dd>南京 广州 深圳 西安</dd>
+            </dl>
+        </div>
+  </div>
+</section>  
+<!-- serviceMod E -->     
+<script src="{R}msite/base/js/zepto.min.js"></script>
+<script src="{R}msite/base/js/base.js"></script>
+<script src="{R}msite/calculator/js/size.js"></script>
+<script src="{R}msite/calculator/js/calculator.js"></script>
+<script type="text/javascript" >
+$(function() {
+	var url=location.search;
+	var Request = new Object();
+	if(url.indexOf("?")!=-1)
+	{
+	　　var str = url.substr(1)　//去掉?号
+	　　strs= str.split("&");
+	　　for(var i=0;i<strs.length;i++)
+	　　{
+	　　 　 Request[strs[i].split("=")[0]]=unescape(strs[ i].split("=")[1]);
+	　　}
+	}
+	//alert(Request["areaNum"])
+	//alert(Request["provinceID"])
+    $('#apply-form').calculationFun({
+		
+		  areaTotal: Request["areaNum"],
+		  cityID_selected: Request["provinceID"],
+		  cityInfo : {
+			  		cityBase:[ 1 , 1 , 1.3 , 1.2 , 1.3 , 1.2 , 1 , 1.16],//北 天 广 深 上 杭 西 南
+		  			areaRatio: [  //北京面积系数 ：卧室 客厅 厨房  卫生间  阳台
+						{ "ratio" :[ 0.43 , 0.38 , 0.07 , 0.06 , 0.06 ]},		//60M以下
+						{ "ratio" :[ 0.42 , 0.38 , 0.07 , 0.07 , 0.06 ]},       //60M-80M
+						{ "ratio" :[ 0.42 , 0.38 , 0.07 , 0.07 , 0.06 ]},       //80M-120M
+						{ "ratio" :[ 0.42 , 0.38 , 0.06 , 0.07 , 0.07 ]},       //120M-160M
+						{ "ratio" :[ 0.43 , 0.39 , 0.05 , 0.06 , 0.07 ]}         //160M以上
+						
+						
+					],
+					unitPrice: [  //北京单价 :卧室 客厅 厨房  卫生间  阳台 管理费及其他
+						
+						{ "price" :[ 325 , 391 , 605 , 968 , 275 , 33 ]},		//60M以下
+						{ "price" :[ 310 , 373 , 578 , 924 , 263 , 32 ]},       //60M-80M
+						{ "price" :[ 295 , 355 , 550 , 880 , 250 , 30 ]},       //80M-120M
+						{ "price" :[ 286 , 344 , 534 , 854 , 243 , 29 ]},       //120M-160M
+						{ "price" :[ 277 , 334 , 517 , 827 , 235 , 28 ]}         //160M以上
+						
+					]   
+       	 }
+	});
+   //
+  
+})
+
+
+</script>
+
+</body>
+</html>
